@@ -17,11 +17,14 @@ add_reference_to_stage(usd_path, prim_path)
 object_prim = XFormPrim(prim_path)
 object_prim.set_world_pose([0, 0 ,0], [0, 0, 0, 1])
 
+
 # Start the simulation loop
-simulation_app.update()
+try:
+    while True:
+        # Update the simulation
+        simulation_app.update()
+except KeyboardInterrupt:
+    # Allow graceful exit on Ctrl+C
+    pass
 
-# Close the simulation 
-simulation_app.close()
-
-# cd /path/to/isaac_sim  # Navigate to your Isaac Sim installation
-# ./python.sh /home/ryanwu/Documents/CERLAB/warehouse_evironment/warehouse_environment.py
+# Run Commend in terminal: python3 isaac_python.py
