@@ -2,7 +2,7 @@
 import omni
 from omni.isaac.kit import SimulationApp
 # Initialize the simulation application
-simulation_app = SimulationApp({"headless": False})
+simulation_app = SimulationApp({"headless": True})
 import omni.isaac.core.utils.stage as stage_utils
 
 import sys
@@ -13,6 +13,12 @@ import numpy as np
 import carb
 
 from pxr import UsdGeom, Sdf, Gf
+
+# graph structure and drawing imports
+import networkx as nx
+import matplotlib.pyplot as plt
+import mpl_toolkits.mplot3d as Axes3D  # 3D plotting
+
 
 class SimulationHandler:
     """
@@ -70,7 +76,8 @@ class SimulationHandler:
         print("Closing simulation...")
         self.kit.close()
 
-    
+
+    @staticmethod
     def create_feature_sphere(stage, path, position, radius=0.5, color=(1.0, 0.0, 0.0)):
         """
         Create a sphere at a given position with the specified radius and color.
@@ -99,6 +106,90 @@ class SimulationHandler:
         # Print a message to confirm the sphere creation
         print(f"Sphere created at {position} with radius {radius} and color {color}.")
 
+
+    def build_feature_graph(rack_positions, crane_positions, forklift_positions):
+        """
+        Build a graph representing the feature points with nodes for each feature and edges
+        representing proximity relationships.
+        
+        Args:
+            rack_positions: List of positions for rack features.
+            crane_positions: List of positions for crane features.
+            forklift_positions: List of positions for forklift features.
+        
+        Returns:
+            A NetworkX graph with nodes and edges.
+        """
+        feature_graph = nx.Graph()
+
+        # Helper function to add nodes with attributes
+        def add_feature_nodes(graph, positions, feature_type, prefix):
+            for i, pos in enumerate(positions, start=1):
+                # Store the position as a NumPy array
+                graph.add_node(f"{prefix}{i}", type=feature_type, position=np.array(pos))
+
+        # Add nodes for each type of feature
+        add_feature_nodes(feature_graph, rack_positions, "rack", "Rack")
+        add_feature_nodes(feature_graph, crane_positions, "crane", "Crane")
+        add_feature_nodes(feature_graph, forklift_positions, "forklift", "Forklift")
+
+        # Define a helper to compute Euclidean distance
+        def euclidean_distance(p1, p2):
+            return np.linalg.norm(p1 - p2)
+
+        # Define a threshold below which nodes will be connected by an edge.
+        distance_threshold = 2500  # Adjust as needed for your simulation
+
+        # Iterate over all pairs of nodes and add an edge if they are close enough.
+        nodes_data = list(feature_graph.nodes(data=True))
+        for i in range(len(nodes_data)):
+            for j in range(i + 1, len(nodes_data)):
+                pos1 = nodes_data[i][1]['position']
+                pos2 = nodes_data[j][1]['position']
+                if euclidean_distance(pos1, pos2) < distance_threshold:
+                    feature_graph.add_edge(nodes_data[i][0], nodes_data[j][0])
+
+        return feature_graph
+
+
+    def draw_feature_graph(feature_graph):
+        """
+        Draws the feature graph in 3D using Matplotlib.
+        
+        Nodes are colored based on feature type:
+            - Rack: blue
+            - Crane: red
+            - Forklift: green
+        Edges are drawn as gray lines connecting the nodes.
+        """
+        fig = plt.figure(figsize=(10, 8))
+        ax = fig.add_subplot(111, projection='3d')
+        
+        # Define a color map for different feature types.
+        color_map = {"rack": "blue", "crane": "red", "forklift": "green"}
+        
+        # Draw nodes.
+        for node, data in feature_graph.nodes(data=True):
+            pos = data['position']
+            node_color = color_map.get(data['type'], "black")
+            ax.scatter(pos[0], pos[1], pos[2], color=node_color, s=50)
+            # Label the node.
+            ax.text(pos[0], pos[1], pos[2], f"{node}", size=10, zorder=1, color='k')
+        
+        # Draw edges.
+        for edge in feature_graph.edges():
+            pos1 = feature_graph.nodes[edge[0]]['position']
+            pos2 = feature_graph.nodes[edge[1]]['position']
+            xs = [pos1[0], pos2[0]]
+            ys = [pos1[1], pos2[1]]
+            zs = [pos1[2], pos2[2]]
+            ax.plot(xs, ys, zs, color="gray", alpha=0.7)
+        
+        ax.set_xlabel("X (Meters)")
+        ax.set_ylabel("Y (Meters)")
+        ax.set_zlabel("Z (Meters)")
+        plt.title("Factor Graph Structure for Warehouse Environment")
+        plt.show()
 
 
 def main():
@@ -182,6 +273,21 @@ def main():
             radius=50,
             color=(0.0, 1.0, 0.0),
         )
+
+    # Build a graph representing the feature points
+    feature_graph = SimulationHandler.build_feature_graph(rack_positions, crane_positions, forklift_positions)
+
+    print("\nGraph Nodes with Attributes:")
+    for node, data in feature_graph.nodes(data=True):
+        print(f"{node}: {data}")
+
+    print("\nGraph Edges:")
+    for edge in feature_graph.edges():
+        print(edge)
+
+    # Draw the feature graph in 3D
+    SimulationHandler.draw_feature_graph(feature_graph)
+    plt.savefig('feature_graph.png')
 
     # Main simulation loop
     try:
