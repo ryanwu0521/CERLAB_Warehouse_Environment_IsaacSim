@@ -1,0 +1,1136 @@
+{
+    "features": [
+        {
+            "id": "Rack1",
+            "type": "rack",
+            "position": [
+                953.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack2",
+            "type": "rack",
+            "position": [
+                1620.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack3",
+            "type": "rack",
+            "position": [
+                2287.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack4",
+            "type": "rack",
+            "position": [
+                953.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack5",
+            "type": "rack",
+            "position": [
+                1620.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack6",
+            "type": "rack",
+            "position": [
+                2287.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack7",
+            "type": "rack",
+            "position": [
+                2953.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack8",
+            "type": "rack",
+            "position": [
+                3620.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack9",
+            "type": "rack",
+            "position": [
+                4287.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack10",
+            "type": "rack",
+            "position": [
+                2953.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack11",
+            "type": "rack",
+            "position": [
+                3620.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack12",
+            "type": "rack",
+            "position": [
+                4287.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack13",
+            "type": "rack",
+            "position": [
+                4953.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack14",
+            "type": "rack",
+            "position": [
+                5620.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack15",
+            "type": "rack",
+            "position": [
+                6287.0,
+                -2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack16",
+            "type": "rack",
+            "position": [
+                4953.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack17",
+            "type": "rack",
+            "position": [
+                5620.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Rack18",
+            "type": "rack",
+            "position": [
+                6287.0,
+                2230.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Crane1",
+            "type": "crane",
+            "position": [
+                1000.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Crane2",
+            "type": "crane",
+            "position": [
+                2700.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Crane3",
+            "type": "crane",
+            "position": [
+                4700.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Crane4",
+            "type": "crane",
+            "position": [
+                6250.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Forklift1",
+            "type": "forklift",
+            "position": [
+                1620.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Forklift2",
+            "type": "forklift",
+            "position": [
+                3620.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        },
+        {
+            "id": "Forklift3",
+            "type": "forklift",
+            "position": [
+                5620.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ]
+        }
+    ],
+    "edges": [
+        [
+            "Rack1",
+            "Rack2"
+        ],
+        [
+            "Rack1",
+            "Rack3"
+        ],
+        [
+            "Rack1",
+            "Rack7"
+        ],
+        [
+            "Rack1",
+            "Crane1"
+        ],
+        [
+            "Rack1",
+            "Forklift1"
+        ],
+        [
+            "Rack2",
+            "Rack3"
+        ],
+        [
+            "Rack2",
+            "Rack7"
+        ],
+        [
+            "Rack2",
+            "Rack8"
+        ],
+        [
+            "Rack2",
+            "Crane1"
+        ],
+        [
+            "Rack2",
+            "Crane2"
+        ],
+        [
+            "Rack2",
+            "Forklift1"
+        ],
+        [
+            "Rack3",
+            "Rack7"
+        ],
+        [
+            "Rack3",
+            "Rack8"
+        ],
+        [
+            "Rack3",
+            "Rack9"
+        ],
+        [
+            "Rack3",
+            "Crane2"
+        ],
+        [
+            "Rack3",
+            "Forklift1"
+        ],
+        [
+            "Rack4",
+            "Rack5"
+        ],
+        [
+            "Rack4",
+            "Rack6"
+        ],
+        [
+            "Rack4",
+            "Rack10"
+        ],
+        [
+            "Rack4",
+            "Crane1"
+        ],
+        [
+            "Rack4",
+            "Forklift1"
+        ],
+        [
+            "Rack5",
+            "Rack6"
+        ],
+        [
+            "Rack5",
+            "Rack10"
+        ],
+        [
+            "Rack5",
+            "Rack11"
+        ],
+        [
+            "Rack5",
+            "Crane1"
+        ],
+        [
+            "Rack5",
+            "Crane2"
+        ],
+        [
+            "Rack5",
+            "Forklift1"
+        ],
+        [
+            "Rack6",
+            "Rack10"
+        ],
+        [
+            "Rack6",
+            "Rack11"
+        ],
+        [
+            "Rack6",
+            "Rack12"
+        ],
+        [
+            "Rack6",
+            "Crane2"
+        ],
+        [
+            "Rack6",
+            "Forklift1"
+        ],
+        [
+            "Rack7",
+            "Rack8"
+        ],
+        [
+            "Rack7",
+            "Rack9"
+        ],
+        [
+            "Rack7",
+            "Rack13"
+        ],
+        [
+            "Rack7",
+            "Crane2"
+        ],
+        [
+            "Rack7",
+            "Forklift2"
+        ],
+        [
+            "Rack8",
+            "Rack9"
+        ],
+        [
+            "Rack8",
+            "Rack13"
+        ],
+        [
+            "Rack8",
+            "Rack14"
+        ],
+        [
+            "Rack8",
+            "Crane2"
+        ],
+        [
+            "Rack8",
+            "Crane3"
+        ],
+        [
+            "Rack8",
+            "Forklift2"
+        ],
+        [
+            "Rack9",
+            "Rack13"
+        ],
+        [
+            "Rack9",
+            "Rack14"
+        ],
+        [
+            "Rack9",
+            "Rack15"
+        ],
+        [
+            "Rack9",
+            "Crane3"
+        ],
+        [
+            "Rack9",
+            "Forklift2"
+        ],
+        [
+            "Rack10",
+            "Rack11"
+        ],
+        [
+            "Rack10",
+            "Rack12"
+        ],
+        [
+            "Rack10",
+            "Rack16"
+        ],
+        [
+            "Rack10",
+            "Crane2"
+        ],
+        [
+            "Rack10",
+            "Forklift2"
+        ],
+        [
+            "Rack11",
+            "Rack12"
+        ],
+        [
+            "Rack11",
+            "Rack16"
+        ],
+        [
+            "Rack11",
+            "Rack17"
+        ],
+        [
+            "Rack11",
+            "Crane2"
+        ],
+        [
+            "Rack11",
+            "Crane3"
+        ],
+        [
+            "Rack11",
+            "Forklift2"
+        ],
+        [
+            "Rack12",
+            "Rack16"
+        ],
+        [
+            "Rack12",
+            "Rack17"
+        ],
+        [
+            "Rack12",
+            "Rack18"
+        ],
+        [
+            "Rack12",
+            "Crane3"
+        ],
+        [
+            "Rack12",
+            "Forklift2"
+        ],
+        [
+            "Rack13",
+            "Rack14"
+        ],
+        [
+            "Rack13",
+            "Rack15"
+        ],
+        [
+            "Rack13",
+            "Crane3"
+        ],
+        [
+            "Rack13",
+            "Forklift3"
+        ],
+        [
+            "Rack14",
+            "Rack15"
+        ],
+        [
+            "Rack14",
+            "Crane3"
+        ],
+        [
+            "Rack14",
+            "Crane4"
+        ],
+        [
+            "Rack14",
+            "Forklift3"
+        ],
+        [
+            "Rack15",
+            "Crane4"
+        ],
+        [
+            "Rack15",
+            "Forklift3"
+        ],
+        [
+            "Rack16",
+            "Rack17"
+        ],
+        [
+            "Rack16",
+            "Rack18"
+        ],
+        [
+            "Rack16",
+            "Crane3"
+        ],
+        [
+            "Rack16",
+            "Forklift3"
+        ],
+        [
+            "Rack17",
+            "Rack18"
+        ],
+        [
+            "Rack17",
+            "Crane3"
+        ],
+        [
+            "Rack17",
+            "Crane4"
+        ],
+        [
+            "Rack17",
+            "Forklift3"
+        ],
+        [
+            "Rack18",
+            "Crane4"
+        ],
+        [
+            "Rack18",
+            "Forklift3"
+        ],
+        [
+            "Crane1",
+            "Crane2"
+        ],
+        [
+            "Crane1",
+            "Forklift1"
+        ],
+        [
+            "Crane2",
+            "Crane3"
+        ],
+        [
+            "Crane2",
+            "Forklift1"
+        ],
+        [
+            "Crane2",
+            "Forklift2"
+        ],
+        [
+            "Crane3",
+            "Crane4"
+        ],
+        [
+            "Crane3",
+            "Forklift2"
+        ],
+        [
+            "Crane3",
+            "Forklift3"
+        ],
+        [
+            "Crane4",
+            "Forklift3"
+        ],
+        [
+            "Forklift1",
+            "Forklift2"
+        ],
+        [
+            "Forklift2",
+            "Forklift3"
+        ]
+    ]
+}
