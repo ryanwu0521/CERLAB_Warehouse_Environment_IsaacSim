@@ -62,25 +62,36 @@ def run_linux_system(args):
     else:
         print(os.getcwd()+"/config.json not found, searching default isaac install path")
 
-        isaac_path = os.environ['HOME']+'/.local/share/ov/pkg'
+        # isaac_path = os.environ['HOME']+'/.local/share/ov/pkg'
+        isaac_path = os.path.expanduser("~/.local/share/ov/pkg")
+
         if not os.path.isdir(isaac_path):
             print('Default install path not found')
             exit()
         dir_list = os.listdir(isaac_path)
-        isaac_list = [s for s in dir_list if "isaac" in s]
+        # isaac_list = [s for s in dir_list if "isaac" in s]
+        isaac_list = [s for s in dir_list if s == "isaac-sim.sh"]
+
         if len(isaac_list) == 0:
             print('No Isaac install found in default path. Omniverse likely installed but no Isaac installed')
         elif len(isaac_list) > 1:
             print('Multiple Isaac versions found, using newest version ' + isaac_list[0])
         
-        isaac_path = isaac_path+"/"+isaac_list[0]
+        # isaac_path = isaac_path+"/"+isaac_list[0]
+        isaac_script = os.path.join(isaac_path, "isaac-sim.sh")
+        isaac_python = os.path.join(isaac_path, "python.sh")
+
+
 
     if not "2023" in isaac_path:
         print("Warning, this has only been tested for Isaac 2023")
 
     file_path = os.getcwd() + "/" + args.file_path
-    subprocess.run([isaac_path+"/python.sh", "-m","pip","install","."])
-    subprocess.Popen(["bash", isaac_path+"/python.sh", file_path])
+    # subprocess.run([isaac_path+"/python.sh", "-m","pip","install","."])
+    # subprocess.Popen(["bash", isaac_path+"/python.sh", file_path])
+    subprocess.run([isaac_python, "-m", "pip", "install", "."])
+    subprocess.Popen(["bash", isaac_python, file_path])
+
     exit()
 
 if __name__ == "__main__":
