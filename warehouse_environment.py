@@ -289,7 +289,7 @@ if __name__ == "__main__":
 
 # Run Program in vs terminal: 
 # Windows: python isaac_python.py
-# Linux: python isaac_python.py
+# Linux: python3 isaac_python.py
 
 # Open Isaac Standalone Isaac Sim in Windows Command Prompt
 # "C:\Users\RyanWu\AppData\Local\ov\pkg\isaac-sim\isaac-sim.selector.bat"
