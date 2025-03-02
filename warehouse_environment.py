@@ -2,7 +2,7 @@
 import omni
 from omni.isaac.kit import SimulationApp
 # Initialize the simulation application
-simulation_app = SimulationApp({"headless": True})
+simulation_app = SimulationApp({"headless": False})
 import omni.isaac.core.utils.stage as stage_utils
 from omni.usd import get_context
 
@@ -287,4 +287,9 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Run Commend in terminal: python3 isaac_python.py
+# Run Program in vs terminal: 
+# Windows: python isaac_python.py
+# Linux: python isaac_python.py
+
+# Open Isaac Standalone Isaac Sim in Windows Command Prompt
+# "C:\Users\RyanWu\AppData\Local\ov\pkg\isaac-sim\isaac-sim.selector.bat"
