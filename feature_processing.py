@@ -356,3 +356,12 @@ def merge_features(features_a, features_b, matches):
             merged_features[feature_b.feature_id] = feature_b
 
     return list(merged_features.values())
+
+
+# =========================================
+# 6D Descriptor: [x, y, z, width, height, depth]
+# x, y, z      → World frame coordinates
+# width        → Bounding box extent along x-axis
+# height       → Bounding box extent along y-axis
+# depth        → Bounding box extent along z-axis
+# =========================================
