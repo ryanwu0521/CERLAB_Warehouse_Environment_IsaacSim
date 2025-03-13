@@ -1,10 +1,21 @@
+# =========================================
+# Graphing Utility Module              
+# =========================================
+
+# Standard Library Imports
 import json
+import os
+
+# External Libraries
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
+# =========================================
+# Graph Construction                
+# =========================================
 def build_graph_from_feature_list(features_list, distance_threshold=2500):
     """
     Build a NetworkX graph from a list of Feature objects.
@@ -24,6 +35,9 @@ def build_graph_from_feature_list(features_list, distance_threshold=2500):
     return feature_graph
 
 
+# =========================================
+# Graph Visualization (3D)             
+# =========================================
 def draw_feature_graph(feature_graph):
     """
     Draws the feature graph in 3D using Matplotlib.
@@ -61,6 +75,9 @@ def draw_feature_graph(feature_graph):
     # plt.show()
 
 
+# =========================================
+# Graph Logging (JSON)
+# =========================================
 def save_feature_graph_to_json(feature_graph, filename="feature_graph.json"):
     """
     Save the feature graph to a json file.
@@ -85,6 +102,9 @@ def save_feature_graph_to_json(feature_graph, filename="feature_graph.json"):
     print(f"Feature graph saved to {filename}")
 
 
+# =========================================
+# Noise Injection (Gaussian Noise)        
+# =========================================
 def apply_gaussian_noise(feature_graph, noise_stddev=0.01):
     """
     Apply Gaussian noise to the position of each feature in the graph.
@@ -101,3 +121,30 @@ def apply_gaussian_noise(feature_graph, noise_stddev=0.01):
             # Update the feature in the graph
             node_data["feature"] = feature
     print(f"Applied Gaussian noise with stddev={noise_stddev} to feature positions.")
+
+
+# =========================================
+# Graph Saving            
+# =========================================
+def save_graph(graph, folder, filename_prefix):
+    """
+    Saves a given graph as both a JSON file and a PNG visualization.
+    
+    Args:
+        graph (networkx.Graph): The feature graph to save.
+        folder (str): Folder name where the files should be saved (e.g., "gt" or "noise").
+        filename_prefix (str): Prefix for naming the files (e.g., "gt_feature_graph").
+    """
+    # Ensure the folder exists
+    os.makedirs(f"results/{folder}", exist_ok=True)
+
+    # Save JSON
+    json_filename = f"results/{folder}/{filename_prefix}.json"
+    save_feature_graph_to_json(graph, filename=json_filename)
+
+    # Save PNG visualization
+    png_filename = f"results/{folder}/{filename_prefix}.png"
+    draw_feature_graph(graph)
+    plt.savefig(png_filename)
+
+    print(f"Saved {filename_prefix} in results/{folder}/")

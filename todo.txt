@@ -1,3 +1,5 @@
-1. Implement dynamic query prim feature.
+1. Implement dynamic query prim feature. -Done
 2. Develop fusion protocol.
 3. Develop benchmarking pipeline.
+4. create a requirement.txt
+5. Update README once all completed.

@@ -1,13 +1,18 @@
-"""
-isaac_utils.py
+# =========================================
+# Isaac Sim / Omniverse Utility Module              
+# =========================================
 
-Utility functions for Isaac Sim / Omniverse USD operations.
-"""
-
+# OmniVerse & USD Imports
 from pxr import UsdGeom, Usd, Gf
+
+# Standard Libraries
 import math
 import numpy as np
 
+
+# =========================================
+# USD Transform Extraction              
+# =========================================
 def get_world_transform(prim):
     """
     Compute and return the world-space translation, rotation, and scale for a given prim.
@@ -33,12 +38,12 @@ def get_world_transform(prim):
     # Extract rotation as a Gf.Quatf
     rotation_quat = transform_matrix.ExtractRotationQuat()
 
-    # Extract scaling as a Gf.Vec3f
-    # scale = transform_matrix.ExtractScaling()
-
+    # Extract scaling using column vectors
     col0 = transform_matrix.GetColumn(0)
     col1 = transform_matrix.GetColumn(1)
     col2 = transform_matrix.GetColumn(2)
+
+    # Compute scale from column vectors
     scale_x = math.sqrt(col0[0]**2 + col0[1]**2 + col0[2]**2)
     scale_y = math.sqrt(col1[0]**2 + col1[1]**2 + col1[2]**2)
     scale_z = math.sqrt(col2[0]**2 + col2[1]**2 + col2[2]**2)
@@ -46,8 +51,27 @@ def get_world_transform(prim):
 
     return translation, rotation_quat, scale
 
+
+# =========================================
+# USD Bounding Box Computation              
+# =========================================
 def get_bounding_box(prim):
-    """Returns the bounding box (min, max) for a given USD primitive."""
+    """
+    Computes the world-space bounding box (min, max) of a given USD primitive.
+
+    Args:
+        prim (pxr.Usd.Prim): The USD Prim whose bounding box is being queried.
+
+    Returns:
+        tuple: (bbox_min, bbox_max)
+            - bbox_min (numpy.array): Minimum coordinates (x, y, z) of the bounding box.
+            - bbox_max (numpy.array): Maximum coordinates (x, y, z) of the bounding box.
+    """
+    # Create a bounding box cache to compute the world-space bounding box
     bbox_cache = UsdGeom.BBoxCache(Usd.TimeCode.Default(), [UsdGeom.Tokens.default_])
+
+    # Compute the bounding box
     bbox = bbox_cache.ComputeWorldBound(prim)
+
+    # Extract min and max coordinates from the bounding box
     return np.array(bbox.GetBox().GetMin()), np.array(bbox.GetBox().GetMax())
