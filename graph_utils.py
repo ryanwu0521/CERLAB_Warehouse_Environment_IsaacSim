@@ -58,7 +58,7 @@ def draw_feature_graph(feature_graph):
     ax.set_ylabel("Y (Meters)")
     ax.set_zlabel("Z (Meters)")
     plt.title("Factor Graph Structure for Warehouse Environment")
-    plt.show()
+    # plt.show()
 
 
 def save_feature_graph_to_json(feature_graph, filename="feature_graph.json"):

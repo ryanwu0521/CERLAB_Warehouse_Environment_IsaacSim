@@ -6,6 +6,7 @@ Utility functions for Isaac Sim / Omniverse USD operations.
 
 from pxr import UsdGeom, Usd, Gf
 import math
+import numpy as np
 
 def get_world_transform(prim):
     """
@@ -44,3 +45,9 @@ def get_world_transform(prim):
     scale = Gf.Vec3f(scale_x, scale_y, scale_z)
 
     return translation, rotation_quat, scale
+
+def get_bounding_box(prim):
+    """Returns the bounding box (min, max) for a given USD primitive."""
+    bbox_cache = UsdGeom.BBoxCache(Usd.TimeCode.Default(), [UsdGeom.Tokens.default_])
+    bbox = bbox_cache.ComputeWorldBound(prim)
+    return np.array(bbox.GetBox().GetMin()), np.array(bbox.GetBox().GetMax())
