@@ -8,12 +8,8 @@
                 0.0,
                 0.0
             ],
-            "size": [
-                816.2039794921875,
-                1289.4262084960938,
-                724.4121170043945
-            ],
-            "orientation": "Warehouse",
+            "radius": 844.6274028467054,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -33,15 +29,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 2700.0,
                 0.0,
                 0.0,
-                816.2039794921875,
-                1289.4262084960938,
-                724.4121170043945
+                844.6274028467054
             ]
         },
         {
@@ -52,12 +46,8 @@
                 0.0,
                 0.0
             ],
-            "size": [
-                818.3578491210938,
-                749.6245727539062,
-                593.7799969315529
-            ],
-            "orientation": "Warehouse",
+            "radius": 629.3292568383052,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -77,15 +67,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 4700.0,
                 0.0,
                 0.0,
-                818.3578491210938,
-                749.6245727539062,
-                593.7799969315529
+                629.3292568383052
             ]
         },
         {
@@ -96,12 +84,8 @@
                 0.0,
                 0.0
             ],
-            "size": [
-                832.5811004638672,
-                432.58113861083984,
-                806.9674558639526
-            ],
-            "orientation": "Warehouse",
+            "radius": 618.771808737885,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -121,15 +105,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 6250.0,
                 0.0,
                 0.0,
-                832.5811004638672,
-                432.58113861083984,
-                806.9674558639526
+                618.771808737885
             ]
         },
         {
@@ -140,12 +122,8 @@
                 0.0,
                 0.0
             ],
-            "size": [
-                136.3306884765625,
-                373.3403778076172,
-                217.42910766601562
-            ],
-            "orientation": "Warehouse",
+            "radius": 226.5195969350487,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -165,15 +143,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 3620.0,
                 0.0,
                 0.0,
-                136.3306884765625,
-                373.3403778076172,
-                217.42910766601562
+                226.5195969350487
             ]
         },
         {
@@ -184,12 +160,8 @@
                 0.0,
                 0.0
             ],
-            "size": [
-                136.3306884765625,
-                373.3403778076172,
-                217.42910766601562
-            ],
-            "orientation": "Warehouse",
+            "radius": 226.5195969350487,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -209,15 +181,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 5620.0,
                 0.0,
                 0.0,
-                136.3306884765625,
-                373.3403778076172,
-                217.42910766601562
+                226.5195969350487
             ]
         },
         {
@@ -228,12 +198,8 @@
                 -2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -253,15 +219,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 2953.0,
                 -2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -272,12 +236,8 @@
                 -2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -297,15 +257,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 3620.0,
                 -2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -316,12 +274,8 @@
                 -2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -341,15 +295,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 4287.0,
                 -2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -360,12 +312,8 @@
                 2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -385,15 +333,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 2953.0,
                 2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -404,12 +350,8 @@
                 2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -429,15 +371,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 3620.0,
                 2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -448,12 +388,8 @@
                 2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -473,15 +409,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 4287.0,
                 2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -492,12 +426,8 @@
                 -2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -517,15 +447,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 4953.0,
                 -2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -536,12 +464,8 @@
                 -2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -561,15 +485,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 5620.0,
                 -2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -580,12 +502,8 @@
                 -2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -605,15 +523,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 6287.0,
                 -2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -624,12 +540,8 @@
                 2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -649,15 +561,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 4953.0,
                 2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -668,12 +578,8 @@
                 2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -693,15 +599,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 5620.0,
                 2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         },
         {
@@ -712,12 +616,8 @@
                 2230.0,
                 0.0
             ],
-            "size": [
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
-            ],
-            "orientation": "Warehouse",
+            "radius": 270.7890442948097,
+            "orientation": null,
             "scale": 1.0,
             "covariance": [
                 [
@@ -737,15 +637,13 @@
                 ]
             ],
             "confidence": 1.0,
-            "source_map": null,
+            "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
                 6287.0,
                 2230.0,
                 0.0,
-                206.65807342529297,
-                399.99778747558594,
-                301.00006103515625
+                270.7890442948097
             ]
         }
     ],

@@ -32,22 +32,22 @@ class Feature:
         feature_id (str): Unique identifier.
         feature_type (str): Semantic label (e.g., 'rack', 'crane', 'forklift').
         position (tuple or list): (x, y, z) coordinates.
-        size (tuple or list): (width, height, depth).
+        radius (float): Radius of the bounding sphere.
         orientation (list): Orientation of the feature.
         scale (float): Feature scale.
         covariance (list): Feature covariance.
         confidence (float): Confidence level.
         source_map (str): Source map name.
         timestamp (float): Timestamp.
-        descriptor (list): 6D descriptor for feature matching (x, y, z, width, height, depth).
+        descriptor (list): 4D descriptor for feature matching (x, y, z, radius).
     """
-    def __init__(self, feature_id, feature_type, position, size=None, orientation=None,
+    def __init__(self, feature_id, feature_type, position, radius=None, orientation=None,
                  scale=1.0, covariance=None, confidence=1.0, source_map=None, timestamp=None):
         
         self.feature_id = feature_id
         self.feature_type = feature_type
         self.position = np.array(position)
-        self.size = np.array(size) if size is not None else np.array([1.0, 1.0, 1.0])
+        self.radius = radius if radius is not None else 1.0  # Default radius
         self.orientation = orientation
         self.scale = scale
         self.covariance = covariance if covariance is not None else np.eye(3) * 0.01
@@ -55,8 +55,8 @@ class Feature:
         self.source_map = source_map
         self.timestamp = timestamp
 
-        # 6D descriptor: [x, y, z, width, height, depth]
-        self.descriptor = np.concatenate([self.position, self.size])
+        # 4D descriptor: [x, y, z, radius]
+        self.descriptor = np.array([*self.position, self.radius])
 
     def to_dict(self):
         """Convert the feature to a dictionary."""
@@ -64,7 +64,7 @@ class Feature:
             "feature_id": self.feature_id,
             "feature_type": self.feature_type,
             "position": self.position.tolist(),
-            "size": self.size.tolist(),
+            "radius": self.radius,
             "orientation": self.orientation,
             "scale": self.scale,
             "covariance": self.covariance.tolist(),
@@ -76,7 +76,7 @@ class Feature:
 
     def __repr__(self):
         """Return a string representation of the feature."""
-        return f"Feature(id={self.feature_id}, type={self.feature_type}, pos={self.position}, size={self.size})"
+        return f"Feature(id={self.feature_id}, type={self.feature_type}, pos={self.position}, radius={self.radius})"
 
 
 # =========================================
@@ -109,8 +109,7 @@ def query_features():
 
             prim_name = subchild.GetName()
             translation, _, _ = iu.get_world_transform(subchild)
-            bbox_min, bbox_max = iu.get_bounding_box(subchild)
-            size = bbox_max - bbox_min  # Compute size from bounding box
+            center, radius = iu.get_bounding_sphere(subchild)  # Get bounding sphere
 
             feature_type = "unknown"
             if "crane" in prim_name.lower():
@@ -120,9 +119,10 @@ def query_features():
             elif "rack" in prim_name.lower():
                 feature_type = "rack"
 
-            feature = Feature(prim_name, feature_type, translation, size, "Warehouse")
+            # Create feature using bounding sphere (rotation-invariant)
+            feature = Feature(prim_name, feature_type, translation, radius, source_map="Warehouse")
             all_features.append(feature)
-            print(f"  Found {feature_type.capitalize()}: {prim_name} at {translation}")
+            print(f"  Found {feature_type.capitalize()}: {prim_name} at {translation} with radius {radius:.2f}")
 
     if not all_features:
         print("Warning: No features found via prim query.")
@@ -173,7 +173,7 @@ def partition_features(all_features):
 # =========================================
 def apply_gaussian_noise(features, seed):
     """
-    Applies Gaussian noise to feature positions.
+    Applies Gaussian noise to feature positions and bounding sphere radii.
     
     Args:
         features (list): List of Feature objects.
@@ -186,10 +186,16 @@ def apply_gaussian_noise(features, seed):
     return [
         Feature(
             f.feature_id, f.feature_type,
-            f.position + np.array([np.random.normal(0, config.NOISE_STDDEV), 
-                                   np.random.normal(0, config.NOISE_STDDEV), 
-                                   0]),  # No noise in z
-            f.size, f.source_map
+            # Apply noise to position
+            f.position + np.array([
+                np.random.normal(0, config.NOISE_STDDEV), 
+                np.random.normal(0, config.NOISE_STDDEV),
+                0
+                # np.random.normal(0, config.NOISE_STDDEV)  # Now includes noise in Z
+            ]),
+            # Apply noise to bounding sphere radius (Ensure it's non-negative)
+            radius=max(0, f.radius + np.random.normal(0, config.NOISE_STDDEV)),
+            source_map=f.source_map
         )
         for f in features
     ]
@@ -313,11 +319,13 @@ def transform_features(features, transformation_matrix):
         new_pos_2d = transformation_matrix @ pos_2d  # Apply transformation
         new_pos = np.array([new_pos_2d[0], new_pos_2d[1], feature.position[2]])  # Preserve Z
 
+        # Create new feature with updated position and preserve radius
         transformed_features.append(Feature(
             feature_id=feature.feature_id,
             feature_type=feature.feature_type,
             position=new_pos,
-            size=feature.size
+            radius=feature.radius,  # Keep original radius since transformation does not affect it
+            source_map=feature.source_map
         ))
 
     return transformed_features
@@ -343,11 +351,13 @@ def merge_features(features_a, features_b, matches):
 
     for feature_a, feature_b in matches:
         avg_position = (feature_a.position + feature_b.position) / 2
+        avg_radius = (feature_a.radius + feature_b.radius) / 2  # Merge radius
+
         merged_features[feature_a.feature_id] = Feature(
             feature_id=feature_a.feature_id,
             feature_type=feature_a.feature_type,
             position=avg_position,
-            size=feature_a.size
+            radius=avg_radius
         )
 
     # Add features from B that were NOT matched
@@ -356,7 +366,6 @@ def merge_features(features_a, features_b, matches):
             merged_features[feature_b.feature_id] = feature_b
 
     return list(merged_features.values())
-
 
 # =========================================
 # 6D Descriptor: [x, y, z, width, height, depth]

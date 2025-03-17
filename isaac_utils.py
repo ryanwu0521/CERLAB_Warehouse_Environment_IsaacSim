@@ -53,25 +53,34 @@ def get_world_transform(prim):
 
 
 # =========================================
-# USD Bounding Box Computation              
+# USD Bounding Sphere Computation
 # =========================================
-def get_bounding_box(prim):
+def get_bounding_sphere(prim):
     """
-    Computes the world-space bounding box (min, max) of a given USD primitive.
+    Computes the world-space bounding sphere for a given USD primitive.
 
     Args:
-        prim (pxr.Usd.Prim): The USD Prim whose bounding box is being queried.
+        prim (pxr.Usd.Prim): The USD Prim whose bounding sphere is being computed.
 
     Returns:
-        tuple: (bbox_min, bbox_max)
-            - bbox_min (numpy.array): Minimum coordinates (x, y, z) of the bounding box.
-            - bbox_max (numpy.array): Maximum coordinates (x, y, z) of the bounding box.
+        tuple:
+            - center (numpy.array): Center coordinates (x, y, z) of the bounding sphere.
+            - radius (float): Radius of the bounding sphere.
     """
     # Create a bounding box cache to compute the world-space bounding box
     bbox_cache = UsdGeom.BBoxCache(Usd.TimeCode.Default(), [UsdGeom.Tokens.default_])
 
     # Compute the bounding box
     bbox = bbox_cache.ComputeWorldBound(prim)
+    
+    # Extract min and max coordinates
+    bbox_min = np.array(bbox.GetBox().GetMin())
+    bbox_max = np.array(bbox.GetBox().GetMax())
 
-    # Extract min and max coordinates from the bounding box
-    return np.array(bbox.GetBox().GetMin()), np.array(bbox.GetBox().GetMax())
+    # Compute the center of the bounding sphere
+    center = (bbox_min + bbox_max) / 2
+
+    # Compute the radius as half the diagonal of the bounding box
+    radius = np.linalg.norm(bbox_max - bbox_min) / 2
+
+    return center, radius
