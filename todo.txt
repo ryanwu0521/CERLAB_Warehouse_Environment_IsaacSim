@@ -1,5 +1,14 @@
-1. Implement dynamic query prim feature. -Done
-2. Develop fusion protocol.
-3. Develop benchmarking pipeline.
+1. Implement dynamic query prim feature. - Done
+2. Develop fusion protocol. - Consine similarity & RANSAC
+3. Develop benchmarking pipeline. - RMSE
 4. create a requirement.txt
 5. Update README once all completed.
+
+
+3/13/25
+1. Map_A & Map_B should be in different coordinate frame. (x, y, z feature discriptor would not work)
+2. Create more scene for testing. (Extend to 3D space, add features in the z direction).
+3. Overlap style, number tuning for error tolerance. 
+
+3/17/25 
+Instead of bounding boxes, use sphere to account for rotation invariant
