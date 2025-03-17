@@ -38,21 +38,28 @@ def build_graph_from_feature_list(features_list, distance_threshold=2500):
 # =========================================
 # Graph Visualization (3D)             
 # =========================================
-def draw_feature_graph(feature_graph):
+def draw_feature_graph(feature_graph, threshold=None, margin=None, show_overlap=True):
     """
     Draws the feature graph in 3D using Matplotlib.
+
+    Args:
+        feature_graph (networkx.Graph): The feature graph to visualize.
+        threshold (float, optional): X-axis threshold for partitioning.
+        margin (float, optional): Overlap margin on the x-axis.
+        show_overlap (bool): Whether to visualize the overlap region.
     
     Nodes are colored based on feature type:
       - rack: blue
       - crane: red
       - forklift: green
-    Edges are drawn as gray lines connecting the nodes.
+    Overlap region is shaded in sky blue.
     """
     fig = plt.figure(figsize=(10, 8))
     ax = fig.add_subplot(111, projection='3d')
     
     color_map = {"rack": "blue", "crane": "red", "forklift": "green"}
     
+    # Draw nodes
     for node, data in feature_graph.nodes(data=True):
         feature = data['feature']
         pos = feature.position
@@ -60,6 +67,7 @@ def draw_feature_graph(feature_graph):
         ax.scatter(pos[0], pos[1], pos[2], color=node_color, s=50)
         ax.text(pos[0], pos[1], pos[2], f"{node}", size=10, zorder=1, color='k')
     
+    # Draw edges
     for edge in feature_graph.edges():
         pos1 = feature_graph.nodes[edge[0]]['feature'].position
         pos2 = feature_graph.nodes[edge[1]]['feature'].position
@@ -67,12 +75,26 @@ def draw_feature_graph(feature_graph):
         ys = [pos1[1], pos2[1]]
         zs = [pos1[2], pos2[2]]
         ax.plot(xs, ys, zs, color="gray", alpha=0.7)
-    
+
+    # Highlight overlap region using a semi-transparent shading
+    if show_overlap and threshold is not None and margin is not None:
+        x_min, x_max = threshold - margin, threshold + margin
+
+        # Define the range of Y and Z values
+        y_vals = np.linspace(-5000, 5000, 10)
+        z_vals = np.linspace(0, 10, 10)
+
+        # Create a meshgrid
+        X, Y = np.meshgrid([x_min, x_max], y_vals)
+        Z = np.zeros_like(X)  # Plane at Z=0
+        
+        # Use a light pink color for better visibility
+        ax.plot_surface(X, Y, Z, color="lightpink", alpha=0.4, shade=False)
+
     ax.set_xlabel("X (Meters)")
     ax.set_ylabel("Y (Meters)")
     ax.set_zlabel("Z (Meters)")
     plt.title("Factor Graph Structure for Warehouse Environment")
-    # plt.show()
 
 
 # =========================================
@@ -135,16 +157,24 @@ def save_graph(graph, folder, filename_prefix):
         folder (str): Folder name where the files should be saved (e.g., "gt" or "noise").
         filename_prefix (str): Prefix for naming the files (e.g., "gt_feature_graph").
     """
-    # Ensure the folder exists
-    os.makedirs(f"results/{folder}", exist_ok=True)
+    # Ensure the results directory exists
+    results_dir = os.path.join("results", folder)
+    os.makedirs(results_dir, exist_ok=True)
 
     # Save JSON
-    json_filename = f"results/{folder}/{filename_prefix}.json"
+    json_filename = os.path.join(results_dir, f"{filename_prefix}.json")
     save_feature_graph_to_json(graph, filename=json_filename)
 
     # Save PNG visualization
-    png_filename = f"results/{folder}/{filename_prefix}.png"
-    draw_feature_graph(graph)
-    plt.savefig(png_filename)
+    png_filename = os.path.join(results_dir, f"{filename_prefix}.png")
+    
+    if graph.number_of_nodes() > 0:
+        plt.figure(figsize=(10, 8))
+        draw_feature_graph(graph)
+        plt.savefig(png_filename, dpi=300)
+        plt.close()  # Prevents memory leaks
+        print(f"Graph visualization saved: {png_filename}")
+    else:
+        print(f"Warning: Graph {filename_prefix} is empty. Skipping PNG visualization.")
 
-    print(f"Saved {filename_prefix} in results/{folder}/")
+    print(f"Graph structure saved: {json_filename}")
