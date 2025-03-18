@@ -121,7 +121,7 @@ def save_feature_graph_to_json(feature_graph, filename="feature_graph.json"):
     
     with open(filename, "w") as f:
         json.dump(data, f, indent=4)
-    print(f"Feature graph saved to {filename}")
+    # print(f"Feature graph saved to {filename}")
 
 
 # =========================================
@@ -173,8 +173,8 @@ def save_graph(graph, folder, filename_prefix):
         draw_feature_graph(graph)
         plt.savefig(png_filename, dpi=300)
         plt.close()  # Prevents memory leaks
-        print(f"Graph visualization saved: {png_filename}")
+        # print(f"\nGraph visualization saved: {png_filename}")
     else:
         print(f"Warning: Graph {filename_prefix} is empty. Skipping PNG visualization.")
 
-    print(f"Graph structure saved: {json_filename}")
+    # print(f"\nGraph structure saved: {json_filename}")

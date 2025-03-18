@@ -12,7 +12,7 @@ PRIM_PATH = "/World/Warehouse/Features"  # USD Prim path for features
 OVERLAP_MARGIN = 1000.0  # Minimum distance between features in meters
 
 # ---------- Noise Settings ----------
-NOISE_STDDEV = 10.0  # Standard deviation for Gaussian noise (meters)
+NOISE_STDDEV = 5.0  # Standard deviation for Gaussian noise (meters)
 
 # ---------- Feature Matching ----------
 MATCH_THRESHOLD = 0.8   # Cosine similarity threshold (0-1)

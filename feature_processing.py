@@ -290,7 +290,7 @@ def estimate_transform_ransac(matches):
         print("Warning: RANSAC failed. Using identity transformation.")
         return np.array([[1, 0, 0], [0, 1, 0]]), None
 
-    print(f"RANSAC succeeded. Filtered transformation matrix:\n{transformation_matrix}")
+    print(f"\nRANSAC succeeded. Filtered transformation matrix:\n{transformation_matrix}")
     return transformation_matrix, inliers
 
 
@@ -368,9 +368,7 @@ def merge_features(features_a, features_b, matches):
     return list(merged_features.values())
 
 # =========================================
-# 6D Descriptor: [x, y, z, width, height, depth]
+# 4D Descriptor: [x, y, z, bounding sphere radius]
 # x, y, z      → World frame coordinates
-# width        → Bounding box extent along x-axis
-# height       → Bounding box extent along y-axis
-# depth        → Bounding box extent along z-axis
+# bounding sphere radius → Feature scale
 # =========================================
