@@ -76,7 +76,6 @@ def main():
         threshold=config.MATCH_THRESHOLD, 
         max_distance=config.MAX_MATCH_DISTANCE
     )
-    print(f"\nFeature matching complete. Found {len(matches)} matched features.")
 
     # Step 7: Estimate transformation matrix using RANSAC
     transformation_matrix, _ = fp.estimate_transform_ransac(matches)

@@ -9,7 +9,9 @@ USD_PATH = "omniverse://cerlabnucleus.lan.local.cmu.edu/Users/weihuanw/sim_envir
 PRIM_PATH = "/World/Warehouse/Features"  # USD Prim path for features
 
 # ---------- Map Overlay & Partitioning ----------
-OVERLAP_MARGIN = 1000.0  # Minimum distance between features in meters
+PARTITION_METHOD = "median"  # Can be "median" or "fixed"
+FIXED_PARTITION_X = 3620.0  # Fixed partition location (if using fixed method)
+OVERLAP_MARGIN = 1000.0  # Margin for overlapping features (meters)
 
 # ---------- Noise Settings ----------
 NOISE_STDDEV = 5.0  # Standard deviation for Gaussian noise (meters)

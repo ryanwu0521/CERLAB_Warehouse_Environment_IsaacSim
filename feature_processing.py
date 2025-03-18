@@ -19,6 +19,7 @@ import isaac_utils as iu
 import numpy as np
 import cv2
 from sklearn.metrics.pairwise import cosine_similarity
+from tabulate import tabulate
 
 
 # =========================================
@@ -144,8 +145,13 @@ def partition_features(all_features):
     Returns:
         tuple: (map_a_features, map_b_features, overlapping_features)
     """
-    threshold = np.median([f.position[0] for f in all_features])
-    margin = config.OVERLAP_MARGIN
+    if config.PARTITION_METHOD == "median":
+        threshold = np.median([f.position[0] for f in all_features])
+    else:
+        threshold = config.FIXED_PARTITION_X  # Use fixed partitioning
+
+    margin = config.OVERLAP_MARGIN  # Load margin from config
+
     map_a_features, map_b_features, overlapping_features = [], [], set()
 
     for feature in all_features:
@@ -159,7 +165,8 @@ def partition_features(all_features):
             overlapping_features.add(feature.feature_id)
 
     print("\nScene partitioning complete.")
-    print(f"  Threshold (x): {threshold}")
+    print(f"  Partition Method: {'Median' if config.PARTITION_METHOD == 'median' else 'Fixed'}")
+    print(f"  Partition Location (x): {threshold}")
     print(f"  Overlap margin: {margin}")
     print(f"  Map_A features: {len(map_a_features)}")
     print(f"  Map_B features: {len(map_b_features)}")
@@ -212,13 +219,10 @@ def match_features(features_a, features_b, threshold=0.8, max_distance=100.0):
         features_a (list): List of Feature objects from Map A.
         features_b (list): List of Feature objects from Map B.
         threshold (float): Similarity threshold to consider a match.
+        max_distance (float): Maximum allowed Euclidean distance for a valid match.
 
     Returns:
         list: List of matched feature pairs (feature_a, feature_b).
-
-    Matching Criteria:
-        - Cosine similarity threshold (default: 0.8)
-        - Maximum distance threshold (default: 100.0 meters)
     """
 
     # Extract descriptors
@@ -242,20 +246,26 @@ def match_features(features_a, features_b, threshold=0.8, max_distance=100.0):
     # Find best matches
     matches = []
     used_ids = set()
-    
+    results = []
+
     for i, row in enumerate(sim_matrix):
         j = np.argmax(row)
         similarity = row[j]
-        
+
         if similarity > threshold and features_b[j].feature_id not in used_ids:
             dist = np.linalg.norm(features_a[i].position - features_b[j].position)
 
-            if dist < max_distance:  # Reject matches where distance is too large
+            if dist < max_distance:
                 matches.append((features_a[i], features_b[j]))
                 used_ids.add(features_b[j].feature_id)  # Mark feature in Map B as used
-                print(f"Match: {features_a[i].feature_id} → {features_b[j].feature_id}, Similarity: {similarity:.4f}, Distance: {dist:.2f}")
+                results.append([features_a[i].feature_id, features_b[j].feature_id, f"{similarity:.4f}", f"{dist:.2f}", " Match"])
             else:
-                print(f"Rejected: {features_a[i].feature_id} → {features_b[j].feature_id}, Similarity: {similarity:.4f}, Distance: {dist:.2f} (Too large)")
+                results.append([features_a[i].feature_id, features_b[j].feature_id, f"{similarity:.4f}", f"{dist:.2f}", " Rejected"])
+
+    # Print the results in a table format
+    print("\nFeature Fusion Results:")
+    print(tabulate(results, headers=["Feature 1", "Feature 2", "Similarity", "Distance (m)", "Status"], tablefmt="grid"))
+    print(f"\nFeature fusion complete. Found {len(matches)} matched features.")
 
     return matches
 
