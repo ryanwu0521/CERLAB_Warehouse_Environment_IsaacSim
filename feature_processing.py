@@ -240,6 +240,10 @@ def match_features(features_a, features_b, threshold=0.8, max_distance=100.0):
         print("Warning: No valid descriptors found for feature matching.")
         return []
 
+    # Normalize descriptors (L2 normalization)
+    descriptors_a = descriptors_a / np.linalg.norm(descriptors_a, axis=1, keepdims=True)
+    descriptors_b = descriptors_b / np.linalg.norm(descriptors_b, axis=1, keepdims=True)
+
     # Compute cosine similarity
     sim_matrix = cosine_similarity(descriptors_a, descriptors_b)
 
