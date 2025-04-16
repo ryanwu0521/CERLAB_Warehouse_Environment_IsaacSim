@@ -1,201 +1,11 @@
 {
     "features": [
         {
-            "feature_id": "Crane_02",
-            "feature_type": "crane",
-            "position": [
-                2700.0,
-                0.0,
-                0.0
-            ],
-            "radius": 844.6274028467054,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                2700.0,
-                0.0,
-                0.0,
-                844.6274028467054
-            ]
-        },
-        {
-            "feature_id": "Crane_03",
-            "feature_type": "crane",
-            "position": [
-                4700.0,
-                0.0,
-                0.0
-            ],
-            "radius": 629.3292568383052,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                4700.0,
-                0.0,
-                0.0,
-                629.3292568383052
-            ]
-        },
-        {
-            "feature_id": "Crane_04",
-            "feature_type": "crane",
-            "position": [
-                6250.0,
-                0.0,
-                0.0
-            ],
-            "radius": 618.771808737885,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                6250.0,
-                0.0,
-                0.0,
-                618.771808737885
-            ]
-        },
-        {
-            "feature_id": "Forklift_02",
-            "feature_type": "forklift",
-            "position": [
-                3620.0,
-                0.0,
-                0.0
-            ],
-            "radius": 226.5195969350487,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                3620.0,
-                0.0,
-                0.0,
-                226.5195969350487
-            ]
-        },
-        {
-            "feature_id": "Forklift_03",
-            "feature_type": "forklift",
-            "position": [
-                5620.0,
-                0.0,
-                0.0
-            ],
-            "radius": 226.5195969350487,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                5620.0,
-                0.0,
-                0.0,
-                226.5195969350487
-            ]
-        },
-        {
-            "feature_id": "Rack_07",
+            "feature_id": "Rack_01",
             "feature_type": "rack",
             "position": [
-                2953.0,
-                -2230.0,
+                50.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -222,8 +32,236 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                2953.0,
-                -2230.0,
+                50.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_02",
+            "feature_type": "rack",
+            "position": [
+                100.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                100.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_03",
+            "feature_type": "rack",
+            "position": [
+                150.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                150.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_04",
+            "feature_type": "rack",
+            "position": [
+                200.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                200.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_05",
+            "feature_type": "rack",
+            "position": [
+                250.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                250.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_06",
+            "feature_type": "rack",
+            "position": [
+                300.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                300.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_07",
+            "feature_type": "rack",
+            "position": [
+                350.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                350.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -232,8 +270,8 @@
             "feature_id": "Rack_08",
             "feature_type": "rack",
             "position": [
-                3620.0,
-                -2230.0,
+                400.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -260,8 +298,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                3620.0,
-                -2230.0,
+                400.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -270,8 +308,8 @@
             "feature_id": "Rack_09",
             "feature_type": "rack",
             "position": [
-                4287.0,
-                -2230.0,
+                450.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -298,8 +336,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                4287.0,
-                -2230.0,
+                450.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -308,8 +346,8 @@
             "feature_id": "Rack_10",
             "feature_type": "rack",
             "position": [
-                2953.0,
-                2230.0,
+                500.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -336,8 +374,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                2953.0,
-                2230.0,
+                500.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -346,8 +384,8 @@
             "feature_id": "Rack_11",
             "feature_type": "rack",
             "position": [
-                3620.0,
-                2230.0,
+                550.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -374,8 +412,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                3620.0,
-                2230.0,
+                550.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -384,8 +422,8 @@
             "feature_id": "Rack_12",
             "feature_type": "rack",
             "position": [
-                4287.0,
-                2230.0,
+                600.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -412,8 +450,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                4287.0,
-                2230.0,
+                600.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -422,8 +460,8 @@
             "feature_id": "Rack_13",
             "feature_type": "rack",
             "position": [
-                4953.0,
-                -2230.0,
+                650.0,
+                -75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -450,8 +488,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                4953.0,
-                -2230.0,
+                650.0,
+                -75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -460,8 +498,8 @@
             "feature_id": "Rack_14",
             "feature_type": "rack",
             "position": [
-                5620.0,
-                -2230.0,
+                50.0,
+                75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -488,8 +526,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                5620.0,
-                -2230.0,
+                50.0,
+                75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -498,8 +536,8 @@
             "feature_id": "Rack_15",
             "feature_type": "rack",
             "position": [
-                6287.0,
-                -2230.0,
+                100.0,
+                75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -526,8 +564,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                6287.0,
-                -2230.0,
+                100.0,
+                75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -536,8 +574,8 @@
             "feature_id": "Rack_16",
             "feature_type": "rack",
             "position": [
-                4953.0,
-                2230.0,
+                150.0,
+                75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -564,8 +602,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                4953.0,
-                2230.0,
+                150.0,
+                75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -574,8 +612,8 @@
             "feature_id": "Rack_17",
             "feature_type": "rack",
             "position": [
-                5620.0,
-                2230.0,
+                200.0,
+                75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -602,8 +640,8 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                5620.0,
-                2230.0,
+                200.0,
+                75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -612,8 +650,8 @@
             "feature_id": "Rack_18",
             "feature_type": "rack",
             "position": [
-                6287.0,
-                2230.0,
+                250.0,
+                75.0,
                 0.0
             ],
             "radius": 270.7890442948097,
@@ -640,153 +678,2221 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                6287.0,
-                2230.0,
+                250.0,
+                75.0,
                 0.0,
                 270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_19",
+            "feature_type": "rack",
+            "position": [
+                300.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                300.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_20",
+            "feature_type": "rack",
+            "position": [
+                350.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                350.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_21",
+            "feature_type": "rack",
+            "position": [
+                400.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                400.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_22",
+            "feature_type": "rack",
+            "position": [
+                450.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                450.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_23",
+            "feature_type": "rack",
+            "position": [
+                500.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                500.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_24",
+            "feature_type": "rack",
+            "position": [
+                550.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                550.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_25",
+            "feature_type": "rack",
+            "position": [
+                600.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                600.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_26",
+            "feature_type": "rack",
+            "position": [
+                650.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                650.0,
+                75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Bleacher_01",
+            "feature_type": "bleacher",
+            "position": [
+                100.0,
+                -250.0,
+                0.0
+            ],
+            "radius": 302.5768720356272,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                100.0,
+                -250.0,
+                0.0,
+                302.5768720356272
+            ]
+        },
+        {
+            "feature_id": "Bleacher_02",
+            "feature_type": "bleacher",
+            "position": [
+                200.0,
+                -250.0,
+                0.0
+            ],
+            "radius": 302.5768720356272,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                200.0,
+                -250.0,
+                0.0,
+                302.5768720356272
+            ]
+        },
+        {
+            "feature_id": "Bleacher_03",
+            "feature_type": "bleacher",
+            "position": [
+                300.0,
+                -250.0,
+                0.0
+            ],
+            "radius": 302.5768720356272,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                300.0,
+                -250.0,
+                0.0,
+                302.5768720356272
+            ]
+        },
+        {
+            "feature_id": "Bleacher_04",
+            "feature_type": "bleacher",
+            "position": [
+                400.0,
+                -250.0,
+                0.0
+            ],
+            "radius": 302.5768720356272,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                400.0,
+                -250.0,
+                0.0,
+                302.5768720356272
+            ]
+        },
+        {
+            "feature_id": "Bleacher_05",
+            "feature_type": "bleacher",
+            "position": [
+                500.0,
+                -250.0,
+                0.0
+            ],
+            "radius": 302.5768720356272,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                500.0,
+                -250.0,
+                0.0,
+                302.5768720356272
+            ]
+        },
+        {
+            "feature_id": "Bleacher_06",
+            "feature_type": "bleacher",
+            "position": [
+                600.0,
+                -250.0,
+                0.0
+            ],
+            "radius": 302.5768720356272,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                600.0,
+                -250.0,
+                0.0,
+                302.5768720356272
+            ]
+        },
+        {
+            "feature_id": "Camera_01",
+            "feature_type": "camera",
+            "position": [
+                63.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                63.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_02",
+            "feature_type": "camera",
+            "position": [
+                130.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                130.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_03",
+            "feature_type": "camera",
+            "position": [
+                195.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                195.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_04",
+            "feature_type": "camera",
+            "position": [
+                329.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                329.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_05",
+            "feature_type": "camera",
+            "position": [
+                395.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                395.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_06",
+            "feature_type": "camera",
+            "position": [
+                530.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                530.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_07",
+            "feature_type": "camera",
+            "position": [
+                595.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                595.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_08",
+            "feature_type": "camera",
+            "position": [
+                660.0,
+                148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                660.0,
+                148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_09",
+            "feature_type": "camera",
+            "position": [
+                63.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                63.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_10",
+            "feature_type": "camera",
+            "position": [
+                195.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                195.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_11",
+            "feature_type": "camera",
+            "position": [
+                395.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                395.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_12",
+            "feature_type": "camera",
+            "position": [
+                329.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                329.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_13",
+            "feature_type": "camera",
+            "position": [
+                130.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                130.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_14",
+            "feature_type": "camera",
+            "position": [
+                595.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                595.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_15",
+            "feature_type": "camera",
+            "position": [
+                530.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                530.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
+            ]
+        },
+        {
+            "feature_id": "Camera_16",
+            "feature_type": "camera",
+            "position": [
+                660.0,
+                -148.0,
+                80.00000000000001
+            ],
+            "radius": 18.912409128337842,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                660.0,
+                -148.0,
+                80.00000000000001,
+                18.912409128337842
             ]
         }
     ],
     "edges": [
         [
-            "Crane_02",
-            "Crane_03"
+            "Rack_01",
+            "Rack_02"
         ],
         [
-            "Crane_02",
-            "Forklift_02"
+            "Rack_01",
+            "Rack_03"
         ],
         [
-            "Crane_02",
+            "Rack_01",
+            "Rack_04"
+        ],
+        [
+            "Rack_01",
+            "Rack_05"
+        ],
+        [
+            "Rack_01",
+            "Rack_06"
+        ],
+        [
+            "Rack_01",
             "Rack_07"
         ],
         [
-            "Crane_02",
+            "Rack_01",
             "Rack_08"
         ],
         [
-            "Crane_02",
-            "Rack_10"
-        ],
-        [
-            "Crane_02",
-            "Rack_11"
-        ],
-        [
-            "Crane_03",
-            "Crane_04"
-        ],
-        [
-            "Crane_03",
-            "Forklift_02"
-        ],
-        [
-            "Crane_03",
-            "Forklift_03"
-        ],
-        [
-            "Crane_03",
-            "Rack_08"
-        ],
-        [
-            "Crane_03",
+            "Rack_01",
             "Rack_09"
         ],
         [
-            "Crane_03",
+            "Rack_01",
+            "Rack_10"
+        ],
+        [
+            "Rack_01",
             "Rack_11"
         ],
         [
-            "Crane_03",
+            "Rack_01",
             "Rack_12"
         ],
         [
-            "Crane_03",
+            "Rack_01",
             "Rack_13"
         ],
         [
-            "Crane_03",
+            "Rack_01",
             "Rack_14"
         ],
         [
-            "Crane_03",
-            "Rack_16"
-        ],
-        [
-            "Crane_03",
-            "Rack_17"
-        ],
-        [
-            "Crane_04",
-            "Forklift_03"
-        ],
-        [
-            "Crane_04",
-            "Rack_14"
-        ],
-        [
-            "Crane_04",
+            "Rack_01",
             "Rack_15"
         ],
         [
-            "Crane_04",
+            "Rack_01",
+            "Rack_16"
+        ],
+        [
+            "Rack_01",
             "Rack_17"
         ],
         [
-            "Crane_04",
+            "Rack_01",
             "Rack_18"
         ],
         [
-            "Forklift_02",
-            "Forklift_03"
+            "Rack_01",
+            "Rack_19"
         ],
         [
-            "Forklift_02",
+            "Rack_01",
+            "Rack_20"
+        ],
+        [
+            "Rack_01",
+            "Rack_21"
+        ],
+        [
+            "Rack_01",
+            "Rack_22"
+        ],
+        [
+            "Rack_01",
+            "Rack_23"
+        ],
+        [
+            "Rack_01",
+            "Rack_24"
+        ],
+        [
+            "Rack_01",
+            "Rack_25"
+        ],
+        [
+            "Rack_01",
+            "Rack_26"
+        ],
+        [
+            "Rack_01",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_01",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_01",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_01",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_01",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_01",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_01",
+            "Camera_01"
+        ],
+        [
+            "Rack_01",
+            "Camera_02"
+        ],
+        [
+            "Rack_01",
+            "Camera_03"
+        ],
+        [
+            "Rack_01",
+            "Camera_04"
+        ],
+        [
+            "Rack_01",
+            "Camera_05"
+        ],
+        [
+            "Rack_01",
+            "Camera_06"
+        ],
+        [
+            "Rack_01",
+            "Camera_07"
+        ],
+        [
+            "Rack_01",
+            "Camera_08"
+        ],
+        [
+            "Rack_01",
+            "Camera_09"
+        ],
+        [
+            "Rack_01",
+            "Camera_10"
+        ],
+        [
+            "Rack_01",
+            "Camera_11"
+        ],
+        [
+            "Rack_01",
+            "Camera_12"
+        ],
+        [
+            "Rack_01",
+            "Camera_13"
+        ],
+        [
+            "Rack_01",
+            "Camera_14"
+        ],
+        [
+            "Rack_01",
+            "Camera_15"
+        ],
+        [
+            "Rack_01",
+            "Camera_16"
+        ],
+        [
+            "Rack_02",
+            "Rack_03"
+        ],
+        [
+            "Rack_02",
+            "Rack_04"
+        ],
+        [
+            "Rack_02",
+            "Rack_05"
+        ],
+        [
+            "Rack_02",
+            "Rack_06"
+        ],
+        [
+            "Rack_02",
             "Rack_07"
         ],
         [
-            "Forklift_02",
+            "Rack_02",
             "Rack_08"
         ],
         [
-            "Forklift_02",
+            "Rack_02",
             "Rack_09"
         ],
         [
-            "Forklift_02",
+            "Rack_02",
             "Rack_10"
         ],
         [
-            "Forklift_02",
+            "Rack_02",
             "Rack_11"
         ],
         [
-            "Forklift_02",
+            "Rack_02",
             "Rack_12"
         ],
         [
-            "Forklift_03",
+            "Rack_02",
             "Rack_13"
         ],
         [
-            "Forklift_03",
+            "Rack_02",
             "Rack_14"
         ],
         [
-            "Forklift_03",
+            "Rack_02",
             "Rack_15"
         ],
         [
-            "Forklift_03",
+            "Rack_02",
             "Rack_16"
         ],
         [
-            "Forklift_03",
+            "Rack_02",
             "Rack_17"
         ],
         [
-            "Forklift_03",
+            "Rack_02",
             "Rack_18"
+        ],
+        [
+            "Rack_02",
+            "Rack_19"
+        ],
+        [
+            "Rack_02",
+            "Rack_20"
+        ],
+        [
+            "Rack_02",
+            "Rack_21"
+        ],
+        [
+            "Rack_02",
+            "Rack_22"
+        ],
+        [
+            "Rack_02",
+            "Rack_23"
+        ],
+        [
+            "Rack_02",
+            "Rack_24"
+        ],
+        [
+            "Rack_02",
+            "Rack_25"
+        ],
+        [
+            "Rack_02",
+            "Rack_26"
+        ],
+        [
+            "Rack_02",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_02",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_02",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_02",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_02",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_02",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_02",
+            "Camera_01"
+        ],
+        [
+            "Rack_02",
+            "Camera_02"
+        ],
+        [
+            "Rack_02",
+            "Camera_03"
+        ],
+        [
+            "Rack_02",
+            "Camera_04"
+        ],
+        [
+            "Rack_02",
+            "Camera_05"
+        ],
+        [
+            "Rack_02",
+            "Camera_06"
+        ],
+        [
+            "Rack_02",
+            "Camera_07"
+        ],
+        [
+            "Rack_02",
+            "Camera_08"
+        ],
+        [
+            "Rack_02",
+            "Camera_09"
+        ],
+        [
+            "Rack_02",
+            "Camera_10"
+        ],
+        [
+            "Rack_02",
+            "Camera_11"
+        ],
+        [
+            "Rack_02",
+            "Camera_12"
+        ],
+        [
+            "Rack_02",
+            "Camera_13"
+        ],
+        [
+            "Rack_02",
+            "Camera_14"
+        ],
+        [
+            "Rack_02",
+            "Camera_15"
+        ],
+        [
+            "Rack_02",
+            "Camera_16"
+        ],
+        [
+            "Rack_03",
+            "Rack_04"
+        ],
+        [
+            "Rack_03",
+            "Rack_05"
+        ],
+        [
+            "Rack_03",
+            "Rack_06"
+        ],
+        [
+            "Rack_03",
+            "Rack_07"
+        ],
+        [
+            "Rack_03",
+            "Rack_08"
+        ],
+        [
+            "Rack_03",
+            "Rack_09"
+        ],
+        [
+            "Rack_03",
+            "Rack_10"
+        ],
+        [
+            "Rack_03",
+            "Rack_11"
+        ],
+        [
+            "Rack_03",
+            "Rack_12"
+        ],
+        [
+            "Rack_03",
+            "Rack_13"
+        ],
+        [
+            "Rack_03",
+            "Rack_14"
+        ],
+        [
+            "Rack_03",
+            "Rack_15"
+        ],
+        [
+            "Rack_03",
+            "Rack_16"
+        ],
+        [
+            "Rack_03",
+            "Rack_17"
+        ],
+        [
+            "Rack_03",
+            "Rack_18"
+        ],
+        [
+            "Rack_03",
+            "Rack_19"
+        ],
+        [
+            "Rack_03",
+            "Rack_20"
+        ],
+        [
+            "Rack_03",
+            "Rack_21"
+        ],
+        [
+            "Rack_03",
+            "Rack_22"
+        ],
+        [
+            "Rack_03",
+            "Rack_23"
+        ],
+        [
+            "Rack_03",
+            "Rack_24"
+        ],
+        [
+            "Rack_03",
+            "Rack_25"
+        ],
+        [
+            "Rack_03",
+            "Rack_26"
+        ],
+        [
+            "Rack_03",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_03",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_03",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_03",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_03",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_03",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_03",
+            "Camera_01"
+        ],
+        [
+            "Rack_03",
+            "Camera_02"
+        ],
+        [
+            "Rack_03",
+            "Camera_03"
+        ],
+        [
+            "Rack_03",
+            "Camera_04"
+        ],
+        [
+            "Rack_03",
+            "Camera_05"
+        ],
+        [
+            "Rack_03",
+            "Camera_06"
+        ],
+        [
+            "Rack_03",
+            "Camera_07"
+        ],
+        [
+            "Rack_03",
+            "Camera_08"
+        ],
+        [
+            "Rack_03",
+            "Camera_09"
+        ],
+        [
+            "Rack_03",
+            "Camera_10"
+        ],
+        [
+            "Rack_03",
+            "Camera_11"
+        ],
+        [
+            "Rack_03",
+            "Camera_12"
+        ],
+        [
+            "Rack_03",
+            "Camera_13"
+        ],
+        [
+            "Rack_03",
+            "Camera_14"
+        ],
+        [
+            "Rack_03",
+            "Camera_15"
+        ],
+        [
+            "Rack_03",
+            "Camera_16"
+        ],
+        [
+            "Rack_04",
+            "Rack_05"
+        ],
+        [
+            "Rack_04",
+            "Rack_06"
+        ],
+        [
+            "Rack_04",
+            "Rack_07"
+        ],
+        [
+            "Rack_04",
+            "Rack_08"
+        ],
+        [
+            "Rack_04",
+            "Rack_09"
+        ],
+        [
+            "Rack_04",
+            "Rack_10"
+        ],
+        [
+            "Rack_04",
+            "Rack_11"
+        ],
+        [
+            "Rack_04",
+            "Rack_12"
+        ],
+        [
+            "Rack_04",
+            "Rack_13"
+        ],
+        [
+            "Rack_04",
+            "Rack_14"
+        ],
+        [
+            "Rack_04",
+            "Rack_15"
+        ],
+        [
+            "Rack_04",
+            "Rack_16"
+        ],
+        [
+            "Rack_04",
+            "Rack_17"
+        ],
+        [
+            "Rack_04",
+            "Rack_18"
+        ],
+        [
+            "Rack_04",
+            "Rack_19"
+        ],
+        [
+            "Rack_04",
+            "Rack_20"
+        ],
+        [
+            "Rack_04",
+            "Rack_21"
+        ],
+        [
+            "Rack_04",
+            "Rack_22"
+        ],
+        [
+            "Rack_04",
+            "Rack_23"
+        ],
+        [
+            "Rack_04",
+            "Rack_24"
+        ],
+        [
+            "Rack_04",
+            "Rack_25"
+        ],
+        [
+            "Rack_04",
+            "Rack_26"
+        ],
+        [
+            "Rack_04",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_04",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_04",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_04",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_04",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_04",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_04",
+            "Camera_01"
+        ],
+        [
+            "Rack_04",
+            "Camera_02"
+        ],
+        [
+            "Rack_04",
+            "Camera_03"
+        ],
+        [
+            "Rack_04",
+            "Camera_04"
+        ],
+        [
+            "Rack_04",
+            "Camera_05"
+        ],
+        [
+            "Rack_04",
+            "Camera_06"
+        ],
+        [
+            "Rack_04",
+            "Camera_07"
+        ],
+        [
+            "Rack_04",
+            "Camera_08"
+        ],
+        [
+            "Rack_04",
+            "Camera_09"
+        ],
+        [
+            "Rack_04",
+            "Camera_10"
+        ],
+        [
+            "Rack_04",
+            "Camera_11"
+        ],
+        [
+            "Rack_04",
+            "Camera_12"
+        ],
+        [
+            "Rack_04",
+            "Camera_13"
+        ],
+        [
+            "Rack_04",
+            "Camera_14"
+        ],
+        [
+            "Rack_04",
+            "Camera_15"
+        ],
+        [
+            "Rack_04",
+            "Camera_16"
+        ],
+        [
+            "Rack_05",
+            "Rack_06"
+        ],
+        [
+            "Rack_05",
+            "Rack_07"
+        ],
+        [
+            "Rack_05",
+            "Rack_08"
+        ],
+        [
+            "Rack_05",
+            "Rack_09"
+        ],
+        [
+            "Rack_05",
+            "Rack_10"
+        ],
+        [
+            "Rack_05",
+            "Rack_11"
+        ],
+        [
+            "Rack_05",
+            "Rack_12"
+        ],
+        [
+            "Rack_05",
+            "Rack_13"
+        ],
+        [
+            "Rack_05",
+            "Rack_14"
+        ],
+        [
+            "Rack_05",
+            "Rack_15"
+        ],
+        [
+            "Rack_05",
+            "Rack_16"
+        ],
+        [
+            "Rack_05",
+            "Rack_17"
+        ],
+        [
+            "Rack_05",
+            "Rack_18"
+        ],
+        [
+            "Rack_05",
+            "Rack_19"
+        ],
+        [
+            "Rack_05",
+            "Rack_20"
+        ],
+        [
+            "Rack_05",
+            "Rack_21"
+        ],
+        [
+            "Rack_05",
+            "Rack_22"
+        ],
+        [
+            "Rack_05",
+            "Rack_23"
+        ],
+        [
+            "Rack_05",
+            "Rack_24"
+        ],
+        [
+            "Rack_05",
+            "Rack_25"
+        ],
+        [
+            "Rack_05",
+            "Rack_26"
+        ],
+        [
+            "Rack_05",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_05",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_05",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_05",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_05",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_05",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_05",
+            "Camera_01"
+        ],
+        [
+            "Rack_05",
+            "Camera_02"
+        ],
+        [
+            "Rack_05",
+            "Camera_03"
+        ],
+        [
+            "Rack_05",
+            "Camera_04"
+        ],
+        [
+            "Rack_05",
+            "Camera_05"
+        ],
+        [
+            "Rack_05",
+            "Camera_06"
+        ],
+        [
+            "Rack_05",
+            "Camera_07"
+        ],
+        [
+            "Rack_05",
+            "Camera_08"
+        ],
+        [
+            "Rack_05",
+            "Camera_09"
+        ],
+        [
+            "Rack_05",
+            "Camera_10"
+        ],
+        [
+            "Rack_05",
+            "Camera_11"
+        ],
+        [
+            "Rack_05",
+            "Camera_12"
+        ],
+        [
+            "Rack_05",
+            "Camera_13"
+        ],
+        [
+            "Rack_05",
+            "Camera_14"
+        ],
+        [
+            "Rack_05",
+            "Camera_15"
+        ],
+        [
+            "Rack_05",
+            "Camera_16"
+        ],
+        [
+            "Rack_06",
+            "Rack_07"
+        ],
+        [
+            "Rack_06",
+            "Rack_08"
+        ],
+        [
+            "Rack_06",
+            "Rack_09"
+        ],
+        [
+            "Rack_06",
+            "Rack_10"
+        ],
+        [
+            "Rack_06",
+            "Rack_11"
+        ],
+        [
+            "Rack_06",
+            "Rack_12"
+        ],
+        [
+            "Rack_06",
+            "Rack_13"
+        ],
+        [
+            "Rack_06",
+            "Rack_14"
+        ],
+        [
+            "Rack_06",
+            "Rack_15"
+        ],
+        [
+            "Rack_06",
+            "Rack_16"
+        ],
+        [
+            "Rack_06",
+            "Rack_17"
+        ],
+        [
+            "Rack_06",
+            "Rack_18"
+        ],
+        [
+            "Rack_06",
+            "Rack_19"
+        ],
+        [
+            "Rack_06",
+            "Rack_20"
+        ],
+        [
+            "Rack_06",
+            "Rack_21"
+        ],
+        [
+            "Rack_06",
+            "Rack_22"
+        ],
+        [
+            "Rack_06",
+            "Rack_23"
+        ],
+        [
+            "Rack_06",
+            "Rack_24"
+        ],
+        [
+            "Rack_06",
+            "Rack_25"
+        ],
+        [
+            "Rack_06",
+            "Rack_26"
+        ],
+        [
+            "Rack_06",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_06",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_06",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_06",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_06",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_06",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_06",
+            "Camera_01"
+        ],
+        [
+            "Rack_06",
+            "Camera_02"
+        ],
+        [
+            "Rack_06",
+            "Camera_03"
+        ],
+        [
+            "Rack_06",
+            "Camera_04"
+        ],
+        [
+            "Rack_06",
+            "Camera_05"
+        ],
+        [
+            "Rack_06",
+            "Camera_06"
+        ],
+        [
+            "Rack_06",
+            "Camera_07"
+        ],
+        [
+            "Rack_06",
+            "Camera_08"
+        ],
+        [
+            "Rack_06",
+            "Camera_09"
+        ],
+        [
+            "Rack_06",
+            "Camera_10"
+        ],
+        [
+            "Rack_06",
+            "Camera_11"
+        ],
+        [
+            "Rack_06",
+            "Camera_12"
+        ],
+        [
+            "Rack_06",
+            "Camera_13"
+        ],
+        [
+            "Rack_06",
+            "Camera_14"
+        ],
+        [
+            "Rack_06",
+            "Camera_15"
+        ],
+        [
+            "Rack_06",
+            "Camera_16"
         ],
         [
             "Rack_07",
@@ -798,11 +2904,175 @@
         ],
         [
             "Rack_07",
+            "Rack_10"
+        ],
+        [
+            "Rack_07",
+            "Rack_11"
+        ],
+        [
+            "Rack_07",
+            "Rack_12"
+        ],
+        [
+            "Rack_07",
             "Rack_13"
+        ],
+        [
+            "Rack_07",
+            "Rack_14"
+        ],
+        [
+            "Rack_07",
+            "Rack_15"
+        ],
+        [
+            "Rack_07",
+            "Rack_16"
+        ],
+        [
+            "Rack_07",
+            "Rack_17"
+        ],
+        [
+            "Rack_07",
+            "Rack_18"
+        ],
+        [
+            "Rack_07",
+            "Rack_19"
+        ],
+        [
+            "Rack_07",
+            "Rack_20"
+        ],
+        [
+            "Rack_07",
+            "Rack_21"
+        ],
+        [
+            "Rack_07",
+            "Rack_22"
+        ],
+        [
+            "Rack_07",
+            "Rack_23"
+        ],
+        [
+            "Rack_07",
+            "Rack_24"
+        ],
+        [
+            "Rack_07",
+            "Rack_25"
+        ],
+        [
+            "Rack_07",
+            "Rack_26"
+        ],
+        [
+            "Rack_07",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_07",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_07",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_07",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_07",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_07",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_07",
+            "Camera_01"
+        ],
+        [
+            "Rack_07",
+            "Camera_02"
+        ],
+        [
+            "Rack_07",
+            "Camera_03"
+        ],
+        [
+            "Rack_07",
+            "Camera_04"
+        ],
+        [
+            "Rack_07",
+            "Camera_05"
+        ],
+        [
+            "Rack_07",
+            "Camera_06"
+        ],
+        [
+            "Rack_07",
+            "Camera_07"
+        ],
+        [
+            "Rack_07",
+            "Camera_08"
+        ],
+        [
+            "Rack_07",
+            "Camera_09"
+        ],
+        [
+            "Rack_07",
+            "Camera_10"
+        ],
+        [
+            "Rack_07",
+            "Camera_11"
+        ],
+        [
+            "Rack_07",
+            "Camera_12"
+        ],
+        [
+            "Rack_07",
+            "Camera_13"
+        ],
+        [
+            "Rack_07",
+            "Camera_14"
+        ],
+        [
+            "Rack_07",
+            "Camera_15"
+        ],
+        [
+            "Rack_07",
+            "Camera_16"
         ],
         [
             "Rack_08",
             "Rack_09"
+        ],
+        [
+            "Rack_08",
+            "Rack_10"
+        ],
+        [
+            "Rack_08",
+            "Rack_11"
+        ],
+        [
+            "Rack_08",
+            "Rack_12"
         ],
         [
             "Rack_08",
@@ -811,6 +3081,154 @@
         [
             "Rack_08",
             "Rack_14"
+        ],
+        [
+            "Rack_08",
+            "Rack_15"
+        ],
+        [
+            "Rack_08",
+            "Rack_16"
+        ],
+        [
+            "Rack_08",
+            "Rack_17"
+        ],
+        [
+            "Rack_08",
+            "Rack_18"
+        ],
+        [
+            "Rack_08",
+            "Rack_19"
+        ],
+        [
+            "Rack_08",
+            "Rack_20"
+        ],
+        [
+            "Rack_08",
+            "Rack_21"
+        ],
+        [
+            "Rack_08",
+            "Rack_22"
+        ],
+        [
+            "Rack_08",
+            "Rack_23"
+        ],
+        [
+            "Rack_08",
+            "Rack_24"
+        ],
+        [
+            "Rack_08",
+            "Rack_25"
+        ],
+        [
+            "Rack_08",
+            "Rack_26"
+        ],
+        [
+            "Rack_08",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_08",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_08",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_08",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_08",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_08",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_08",
+            "Camera_01"
+        ],
+        [
+            "Rack_08",
+            "Camera_02"
+        ],
+        [
+            "Rack_08",
+            "Camera_03"
+        ],
+        [
+            "Rack_08",
+            "Camera_04"
+        ],
+        [
+            "Rack_08",
+            "Camera_05"
+        ],
+        [
+            "Rack_08",
+            "Camera_06"
+        ],
+        [
+            "Rack_08",
+            "Camera_07"
+        ],
+        [
+            "Rack_08",
+            "Camera_08"
+        ],
+        [
+            "Rack_08",
+            "Camera_09"
+        ],
+        [
+            "Rack_08",
+            "Camera_10"
+        ],
+        [
+            "Rack_08",
+            "Camera_11"
+        ],
+        [
+            "Rack_08",
+            "Camera_12"
+        ],
+        [
+            "Rack_08",
+            "Camera_13"
+        ],
+        [
+            "Rack_08",
+            "Camera_14"
+        ],
+        [
+            "Rack_08",
+            "Camera_15"
+        ],
+        [
+            "Rack_08",
+            "Camera_16"
+        ],
+        [
+            "Rack_09",
+            "Rack_10"
+        ],
+        [
+            "Rack_09",
+            "Rack_11"
+        ],
+        [
+            "Rack_09",
+            "Rack_12"
         ],
         [
             "Rack_09",
@@ -825,6 +3243,138 @@
             "Rack_15"
         ],
         [
+            "Rack_09",
+            "Rack_16"
+        ],
+        [
+            "Rack_09",
+            "Rack_17"
+        ],
+        [
+            "Rack_09",
+            "Rack_18"
+        ],
+        [
+            "Rack_09",
+            "Rack_19"
+        ],
+        [
+            "Rack_09",
+            "Rack_20"
+        ],
+        [
+            "Rack_09",
+            "Rack_21"
+        ],
+        [
+            "Rack_09",
+            "Rack_22"
+        ],
+        [
+            "Rack_09",
+            "Rack_23"
+        ],
+        [
+            "Rack_09",
+            "Rack_24"
+        ],
+        [
+            "Rack_09",
+            "Rack_25"
+        ],
+        [
+            "Rack_09",
+            "Rack_26"
+        ],
+        [
+            "Rack_09",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_09",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_09",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_09",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_09",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_09",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_09",
+            "Camera_01"
+        ],
+        [
+            "Rack_09",
+            "Camera_02"
+        ],
+        [
+            "Rack_09",
+            "Camera_03"
+        ],
+        [
+            "Rack_09",
+            "Camera_04"
+        ],
+        [
+            "Rack_09",
+            "Camera_05"
+        ],
+        [
+            "Rack_09",
+            "Camera_06"
+        ],
+        [
+            "Rack_09",
+            "Camera_07"
+        ],
+        [
+            "Rack_09",
+            "Camera_08"
+        ],
+        [
+            "Rack_09",
+            "Camera_09"
+        ],
+        [
+            "Rack_09",
+            "Camera_10"
+        ],
+        [
+            "Rack_09",
+            "Camera_11"
+        ],
+        [
+            "Rack_09",
+            "Camera_12"
+        ],
+        [
+            "Rack_09",
+            "Camera_13"
+        ],
+        [
+            "Rack_09",
+            "Camera_14"
+        ],
+        [
+            "Rack_09",
+            "Camera_15"
+        ],
+        [
+            "Rack_09",
+            "Camera_16"
+        ],
+        [
             "Rack_10",
             "Rack_11"
         ],
@@ -834,11 +3384,163 @@
         ],
         [
             "Rack_10",
+            "Rack_13"
+        ],
+        [
+            "Rack_10",
+            "Rack_14"
+        ],
+        [
+            "Rack_10",
+            "Rack_15"
+        ],
+        [
+            "Rack_10",
             "Rack_16"
+        ],
+        [
+            "Rack_10",
+            "Rack_17"
+        ],
+        [
+            "Rack_10",
+            "Rack_18"
+        ],
+        [
+            "Rack_10",
+            "Rack_19"
+        ],
+        [
+            "Rack_10",
+            "Rack_20"
+        ],
+        [
+            "Rack_10",
+            "Rack_21"
+        ],
+        [
+            "Rack_10",
+            "Rack_22"
+        ],
+        [
+            "Rack_10",
+            "Rack_23"
+        ],
+        [
+            "Rack_10",
+            "Rack_24"
+        ],
+        [
+            "Rack_10",
+            "Rack_25"
+        ],
+        [
+            "Rack_10",
+            "Rack_26"
+        ],
+        [
+            "Rack_10",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_10",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_10",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_10",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_10",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_10",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_10",
+            "Camera_01"
+        ],
+        [
+            "Rack_10",
+            "Camera_02"
+        ],
+        [
+            "Rack_10",
+            "Camera_03"
+        ],
+        [
+            "Rack_10",
+            "Camera_04"
+        ],
+        [
+            "Rack_10",
+            "Camera_05"
+        ],
+        [
+            "Rack_10",
+            "Camera_06"
+        ],
+        [
+            "Rack_10",
+            "Camera_07"
+        ],
+        [
+            "Rack_10",
+            "Camera_08"
+        ],
+        [
+            "Rack_10",
+            "Camera_09"
+        ],
+        [
+            "Rack_10",
+            "Camera_10"
+        ],
+        [
+            "Rack_10",
+            "Camera_11"
+        ],
+        [
+            "Rack_10",
+            "Camera_12"
+        ],
+        [
+            "Rack_10",
+            "Camera_13"
+        ],
+        [
+            "Rack_10",
+            "Camera_14"
+        ],
+        [
+            "Rack_10",
+            "Camera_15"
+        ],
+        [
+            "Rack_10",
+            "Camera_16"
         ],
         [
             "Rack_11",
             "Rack_12"
+        ],
+        [
+            "Rack_11",
+            "Rack_13"
+        ],
+        [
+            "Rack_11",
+            "Rack_14"
+        ],
+        [
+            "Rack_11",
+            "Rack_15"
         ],
         [
             "Rack_11",
@@ -847,6 +3549,142 @@
         [
             "Rack_11",
             "Rack_17"
+        ],
+        [
+            "Rack_11",
+            "Rack_18"
+        ],
+        [
+            "Rack_11",
+            "Rack_19"
+        ],
+        [
+            "Rack_11",
+            "Rack_20"
+        ],
+        [
+            "Rack_11",
+            "Rack_21"
+        ],
+        [
+            "Rack_11",
+            "Rack_22"
+        ],
+        [
+            "Rack_11",
+            "Rack_23"
+        ],
+        [
+            "Rack_11",
+            "Rack_24"
+        ],
+        [
+            "Rack_11",
+            "Rack_25"
+        ],
+        [
+            "Rack_11",
+            "Rack_26"
+        ],
+        [
+            "Rack_11",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_11",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_11",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_11",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_11",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_11",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_11",
+            "Camera_01"
+        ],
+        [
+            "Rack_11",
+            "Camera_02"
+        ],
+        [
+            "Rack_11",
+            "Camera_03"
+        ],
+        [
+            "Rack_11",
+            "Camera_04"
+        ],
+        [
+            "Rack_11",
+            "Camera_05"
+        ],
+        [
+            "Rack_11",
+            "Camera_06"
+        ],
+        [
+            "Rack_11",
+            "Camera_07"
+        ],
+        [
+            "Rack_11",
+            "Camera_08"
+        ],
+        [
+            "Rack_11",
+            "Camera_09"
+        ],
+        [
+            "Rack_11",
+            "Camera_10"
+        ],
+        [
+            "Rack_11",
+            "Camera_11"
+        ],
+        [
+            "Rack_11",
+            "Camera_12"
+        ],
+        [
+            "Rack_11",
+            "Camera_13"
+        ],
+        [
+            "Rack_11",
+            "Camera_14"
+        ],
+        [
+            "Rack_11",
+            "Camera_15"
+        ],
+        [
+            "Rack_11",
+            "Camera_16"
+        ],
+        [
+            "Rack_12",
+            "Rack_13"
+        ],
+        [
+            "Rack_12",
+            "Rack_14"
+        ],
+        [
+            "Rack_12",
+            "Rack_15"
         ],
         [
             "Rack_12",
@@ -859,6 +3697,126 @@
         [
             "Rack_12",
             "Rack_18"
+        ],
+        [
+            "Rack_12",
+            "Rack_19"
+        ],
+        [
+            "Rack_12",
+            "Rack_20"
+        ],
+        [
+            "Rack_12",
+            "Rack_21"
+        ],
+        [
+            "Rack_12",
+            "Rack_22"
+        ],
+        [
+            "Rack_12",
+            "Rack_23"
+        ],
+        [
+            "Rack_12",
+            "Rack_24"
+        ],
+        [
+            "Rack_12",
+            "Rack_25"
+        ],
+        [
+            "Rack_12",
+            "Rack_26"
+        ],
+        [
+            "Rack_12",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_12",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_12",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_12",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_12",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_12",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_12",
+            "Camera_01"
+        ],
+        [
+            "Rack_12",
+            "Camera_02"
+        ],
+        [
+            "Rack_12",
+            "Camera_03"
+        ],
+        [
+            "Rack_12",
+            "Camera_04"
+        ],
+        [
+            "Rack_12",
+            "Camera_05"
+        ],
+        [
+            "Rack_12",
+            "Camera_06"
+        ],
+        [
+            "Rack_12",
+            "Camera_07"
+        ],
+        [
+            "Rack_12",
+            "Camera_08"
+        ],
+        [
+            "Rack_12",
+            "Camera_09"
+        ],
+        [
+            "Rack_12",
+            "Camera_10"
+        ],
+        [
+            "Rack_12",
+            "Camera_11"
+        ],
+        [
+            "Rack_12",
+            "Camera_12"
+        ],
+        [
+            "Rack_12",
+            "Camera_13"
+        ],
+        [
+            "Rack_12",
+            "Camera_14"
+        ],
+        [
+            "Rack_12",
+            "Camera_15"
+        ],
+        [
+            "Rack_12",
+            "Camera_16"
         ],
         [
             "Rack_13",
@@ -867,12 +3825,408 @@
         [
             "Rack_13",
             "Rack_15"
+        ],
+        [
+            "Rack_13",
+            "Rack_16"
+        ],
+        [
+            "Rack_13",
+            "Rack_17"
+        ],
+        [
+            "Rack_13",
+            "Rack_18"
+        ],
+        [
+            "Rack_13",
+            "Rack_19"
+        ],
+        [
+            "Rack_13",
+            "Rack_20"
+        ],
+        [
+            "Rack_13",
+            "Rack_21"
+        ],
+        [
+            "Rack_13",
+            "Rack_22"
+        ],
+        [
+            "Rack_13",
+            "Rack_23"
+        ],
+        [
+            "Rack_13",
+            "Rack_24"
+        ],
+        [
+            "Rack_13",
+            "Rack_25"
+        ],
+        [
+            "Rack_13",
+            "Rack_26"
+        ],
+        [
+            "Rack_13",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_13",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_13",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_13",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_13",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_13",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_13",
+            "Camera_01"
+        ],
+        [
+            "Rack_13",
+            "Camera_02"
+        ],
+        [
+            "Rack_13",
+            "Camera_03"
+        ],
+        [
+            "Rack_13",
+            "Camera_04"
+        ],
+        [
+            "Rack_13",
+            "Camera_05"
+        ],
+        [
+            "Rack_13",
+            "Camera_06"
+        ],
+        [
+            "Rack_13",
+            "Camera_07"
+        ],
+        [
+            "Rack_13",
+            "Camera_08"
+        ],
+        [
+            "Rack_13",
+            "Camera_09"
+        ],
+        [
+            "Rack_13",
+            "Camera_10"
+        ],
+        [
+            "Rack_13",
+            "Camera_11"
+        ],
+        [
+            "Rack_13",
+            "Camera_12"
+        ],
+        [
+            "Rack_13",
+            "Camera_13"
+        ],
+        [
+            "Rack_13",
+            "Camera_14"
+        ],
+        [
+            "Rack_13",
+            "Camera_15"
+        ],
+        [
+            "Rack_13",
+            "Camera_16"
         ],
         [
             "Rack_14",
             "Rack_15"
         ],
         [
+            "Rack_14",
+            "Rack_16"
+        ],
+        [
+            "Rack_14",
+            "Rack_17"
+        ],
+        [
+            "Rack_14",
+            "Rack_18"
+        ],
+        [
+            "Rack_14",
+            "Rack_19"
+        ],
+        [
+            "Rack_14",
+            "Rack_20"
+        ],
+        [
+            "Rack_14",
+            "Rack_21"
+        ],
+        [
+            "Rack_14",
+            "Rack_22"
+        ],
+        [
+            "Rack_14",
+            "Rack_23"
+        ],
+        [
+            "Rack_14",
+            "Rack_24"
+        ],
+        [
+            "Rack_14",
+            "Rack_25"
+        ],
+        [
+            "Rack_14",
+            "Rack_26"
+        ],
+        [
+            "Rack_14",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_14",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_14",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_14",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_14",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_14",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_14",
+            "Camera_01"
+        ],
+        [
+            "Rack_14",
+            "Camera_02"
+        ],
+        [
+            "Rack_14",
+            "Camera_03"
+        ],
+        [
+            "Rack_14",
+            "Camera_04"
+        ],
+        [
+            "Rack_14",
+            "Camera_05"
+        ],
+        [
+            "Rack_14",
+            "Camera_06"
+        ],
+        [
+            "Rack_14",
+            "Camera_07"
+        ],
+        [
+            "Rack_14",
+            "Camera_08"
+        ],
+        [
+            "Rack_14",
+            "Camera_09"
+        ],
+        [
+            "Rack_14",
+            "Camera_10"
+        ],
+        [
+            "Rack_14",
+            "Camera_11"
+        ],
+        [
+            "Rack_14",
+            "Camera_12"
+        ],
+        [
+            "Rack_14",
+            "Camera_13"
+        ],
+        [
+            "Rack_14",
+            "Camera_14"
+        ],
+        [
+            "Rack_14",
+            "Camera_15"
+        ],
+        [
+            "Rack_14",
+            "Camera_16"
+        ],
+        [
+            "Rack_15",
+            "Rack_16"
+        ],
+        [
+            "Rack_15",
+            "Rack_17"
+        ],
+        [
+            "Rack_15",
+            "Rack_18"
+        ],
+        [
+            "Rack_15",
+            "Rack_19"
+        ],
+        [
+            "Rack_15",
+            "Rack_20"
+        ],
+        [
+            "Rack_15",
+            "Rack_21"
+        ],
+        [
+            "Rack_15",
+            "Rack_22"
+        ],
+        [
+            "Rack_15",
+            "Rack_23"
+        ],
+        [
+            "Rack_15",
+            "Rack_24"
+        ],
+        [
+            "Rack_15",
+            "Rack_25"
+        ],
+        [
+            "Rack_15",
+            "Rack_26"
+        ],
+        [
+            "Rack_15",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_15",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_15",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_15",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_15",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_15",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_15",
+            "Camera_01"
+        ],
+        [
+            "Rack_15",
+            "Camera_02"
+        ],
+        [
+            "Rack_15",
+            "Camera_03"
+        ],
+        [
+            "Rack_15",
+            "Camera_04"
+        ],
+        [
+            "Rack_15",
+            "Camera_05"
+        ],
+        [
+            "Rack_15",
+            "Camera_06"
+        ],
+        [
+            "Rack_15",
+            "Camera_07"
+        ],
+        [
+            "Rack_15",
+            "Camera_08"
+        ],
+        [
+            "Rack_15",
+            "Camera_09"
+        ],
+        [
+            "Rack_15",
+            "Camera_10"
+        ],
+        [
+            "Rack_15",
+            "Camera_11"
+        ],
+        [
+            "Rack_15",
+            "Camera_12"
+        ],
+        [
+            "Rack_15",
+            "Camera_13"
+        ],
+        [
+            "Rack_15",
+            "Camera_14"
+        ],
+        [
+            "Rack_15",
+            "Camera_15"
+        ],
+        [
+            "Rack_15",
+            "Camera_16"
+        ],
+        [
             "Rack_16",
             "Rack_17"
         ],
@@ -881,8 +4235,2108 @@
             "Rack_18"
         ],
         [
+            "Rack_16",
+            "Rack_19"
+        ],
+        [
+            "Rack_16",
+            "Rack_20"
+        ],
+        [
+            "Rack_16",
+            "Rack_21"
+        ],
+        [
+            "Rack_16",
+            "Rack_22"
+        ],
+        [
+            "Rack_16",
+            "Rack_23"
+        ],
+        [
+            "Rack_16",
+            "Rack_24"
+        ],
+        [
+            "Rack_16",
+            "Rack_25"
+        ],
+        [
+            "Rack_16",
+            "Rack_26"
+        ],
+        [
+            "Rack_16",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_16",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_16",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_16",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_16",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_16",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_16",
+            "Camera_01"
+        ],
+        [
+            "Rack_16",
+            "Camera_02"
+        ],
+        [
+            "Rack_16",
+            "Camera_03"
+        ],
+        [
+            "Rack_16",
+            "Camera_04"
+        ],
+        [
+            "Rack_16",
+            "Camera_05"
+        ],
+        [
+            "Rack_16",
+            "Camera_06"
+        ],
+        [
+            "Rack_16",
+            "Camera_07"
+        ],
+        [
+            "Rack_16",
+            "Camera_08"
+        ],
+        [
+            "Rack_16",
+            "Camera_09"
+        ],
+        [
+            "Rack_16",
+            "Camera_10"
+        ],
+        [
+            "Rack_16",
+            "Camera_11"
+        ],
+        [
+            "Rack_16",
+            "Camera_12"
+        ],
+        [
+            "Rack_16",
+            "Camera_13"
+        ],
+        [
+            "Rack_16",
+            "Camera_14"
+        ],
+        [
+            "Rack_16",
+            "Camera_15"
+        ],
+        [
+            "Rack_16",
+            "Camera_16"
+        ],
+        [
             "Rack_17",
             "Rack_18"
+        ],
+        [
+            "Rack_17",
+            "Rack_19"
+        ],
+        [
+            "Rack_17",
+            "Rack_20"
+        ],
+        [
+            "Rack_17",
+            "Rack_21"
+        ],
+        [
+            "Rack_17",
+            "Rack_22"
+        ],
+        [
+            "Rack_17",
+            "Rack_23"
+        ],
+        [
+            "Rack_17",
+            "Rack_24"
+        ],
+        [
+            "Rack_17",
+            "Rack_25"
+        ],
+        [
+            "Rack_17",
+            "Rack_26"
+        ],
+        [
+            "Rack_17",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_17",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_17",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_17",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_17",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_17",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_17",
+            "Camera_01"
+        ],
+        [
+            "Rack_17",
+            "Camera_02"
+        ],
+        [
+            "Rack_17",
+            "Camera_03"
+        ],
+        [
+            "Rack_17",
+            "Camera_04"
+        ],
+        [
+            "Rack_17",
+            "Camera_05"
+        ],
+        [
+            "Rack_17",
+            "Camera_06"
+        ],
+        [
+            "Rack_17",
+            "Camera_07"
+        ],
+        [
+            "Rack_17",
+            "Camera_08"
+        ],
+        [
+            "Rack_17",
+            "Camera_09"
+        ],
+        [
+            "Rack_17",
+            "Camera_10"
+        ],
+        [
+            "Rack_17",
+            "Camera_11"
+        ],
+        [
+            "Rack_17",
+            "Camera_12"
+        ],
+        [
+            "Rack_17",
+            "Camera_13"
+        ],
+        [
+            "Rack_17",
+            "Camera_14"
+        ],
+        [
+            "Rack_17",
+            "Camera_15"
+        ],
+        [
+            "Rack_17",
+            "Camera_16"
+        ],
+        [
+            "Rack_18",
+            "Rack_19"
+        ],
+        [
+            "Rack_18",
+            "Rack_20"
+        ],
+        [
+            "Rack_18",
+            "Rack_21"
+        ],
+        [
+            "Rack_18",
+            "Rack_22"
+        ],
+        [
+            "Rack_18",
+            "Rack_23"
+        ],
+        [
+            "Rack_18",
+            "Rack_24"
+        ],
+        [
+            "Rack_18",
+            "Rack_25"
+        ],
+        [
+            "Rack_18",
+            "Rack_26"
+        ],
+        [
+            "Rack_18",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_18",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_18",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_18",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_18",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_18",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_18",
+            "Camera_01"
+        ],
+        [
+            "Rack_18",
+            "Camera_02"
+        ],
+        [
+            "Rack_18",
+            "Camera_03"
+        ],
+        [
+            "Rack_18",
+            "Camera_04"
+        ],
+        [
+            "Rack_18",
+            "Camera_05"
+        ],
+        [
+            "Rack_18",
+            "Camera_06"
+        ],
+        [
+            "Rack_18",
+            "Camera_07"
+        ],
+        [
+            "Rack_18",
+            "Camera_08"
+        ],
+        [
+            "Rack_18",
+            "Camera_09"
+        ],
+        [
+            "Rack_18",
+            "Camera_10"
+        ],
+        [
+            "Rack_18",
+            "Camera_11"
+        ],
+        [
+            "Rack_18",
+            "Camera_12"
+        ],
+        [
+            "Rack_18",
+            "Camera_13"
+        ],
+        [
+            "Rack_18",
+            "Camera_14"
+        ],
+        [
+            "Rack_18",
+            "Camera_15"
+        ],
+        [
+            "Rack_18",
+            "Camera_16"
+        ],
+        [
+            "Rack_19",
+            "Rack_20"
+        ],
+        [
+            "Rack_19",
+            "Rack_21"
+        ],
+        [
+            "Rack_19",
+            "Rack_22"
+        ],
+        [
+            "Rack_19",
+            "Rack_23"
+        ],
+        [
+            "Rack_19",
+            "Rack_24"
+        ],
+        [
+            "Rack_19",
+            "Rack_25"
+        ],
+        [
+            "Rack_19",
+            "Rack_26"
+        ],
+        [
+            "Rack_19",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_19",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_19",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_19",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_19",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_19",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_19",
+            "Camera_01"
+        ],
+        [
+            "Rack_19",
+            "Camera_02"
+        ],
+        [
+            "Rack_19",
+            "Camera_03"
+        ],
+        [
+            "Rack_19",
+            "Camera_04"
+        ],
+        [
+            "Rack_19",
+            "Camera_05"
+        ],
+        [
+            "Rack_19",
+            "Camera_06"
+        ],
+        [
+            "Rack_19",
+            "Camera_07"
+        ],
+        [
+            "Rack_19",
+            "Camera_08"
+        ],
+        [
+            "Rack_19",
+            "Camera_09"
+        ],
+        [
+            "Rack_19",
+            "Camera_10"
+        ],
+        [
+            "Rack_19",
+            "Camera_11"
+        ],
+        [
+            "Rack_19",
+            "Camera_12"
+        ],
+        [
+            "Rack_19",
+            "Camera_13"
+        ],
+        [
+            "Rack_19",
+            "Camera_14"
+        ],
+        [
+            "Rack_19",
+            "Camera_15"
+        ],
+        [
+            "Rack_19",
+            "Camera_16"
+        ],
+        [
+            "Rack_20",
+            "Rack_21"
+        ],
+        [
+            "Rack_20",
+            "Rack_22"
+        ],
+        [
+            "Rack_20",
+            "Rack_23"
+        ],
+        [
+            "Rack_20",
+            "Rack_24"
+        ],
+        [
+            "Rack_20",
+            "Rack_25"
+        ],
+        [
+            "Rack_20",
+            "Rack_26"
+        ],
+        [
+            "Rack_20",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_20",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_20",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_20",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_20",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_20",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_20",
+            "Camera_01"
+        ],
+        [
+            "Rack_20",
+            "Camera_02"
+        ],
+        [
+            "Rack_20",
+            "Camera_03"
+        ],
+        [
+            "Rack_20",
+            "Camera_04"
+        ],
+        [
+            "Rack_20",
+            "Camera_05"
+        ],
+        [
+            "Rack_20",
+            "Camera_06"
+        ],
+        [
+            "Rack_20",
+            "Camera_07"
+        ],
+        [
+            "Rack_20",
+            "Camera_08"
+        ],
+        [
+            "Rack_20",
+            "Camera_09"
+        ],
+        [
+            "Rack_20",
+            "Camera_10"
+        ],
+        [
+            "Rack_20",
+            "Camera_11"
+        ],
+        [
+            "Rack_20",
+            "Camera_12"
+        ],
+        [
+            "Rack_20",
+            "Camera_13"
+        ],
+        [
+            "Rack_20",
+            "Camera_14"
+        ],
+        [
+            "Rack_20",
+            "Camera_15"
+        ],
+        [
+            "Rack_20",
+            "Camera_16"
+        ],
+        [
+            "Rack_21",
+            "Rack_22"
+        ],
+        [
+            "Rack_21",
+            "Rack_23"
+        ],
+        [
+            "Rack_21",
+            "Rack_24"
+        ],
+        [
+            "Rack_21",
+            "Rack_25"
+        ],
+        [
+            "Rack_21",
+            "Rack_26"
+        ],
+        [
+            "Rack_21",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_21",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_21",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_21",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_21",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_21",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_21",
+            "Camera_01"
+        ],
+        [
+            "Rack_21",
+            "Camera_02"
+        ],
+        [
+            "Rack_21",
+            "Camera_03"
+        ],
+        [
+            "Rack_21",
+            "Camera_04"
+        ],
+        [
+            "Rack_21",
+            "Camera_05"
+        ],
+        [
+            "Rack_21",
+            "Camera_06"
+        ],
+        [
+            "Rack_21",
+            "Camera_07"
+        ],
+        [
+            "Rack_21",
+            "Camera_08"
+        ],
+        [
+            "Rack_21",
+            "Camera_09"
+        ],
+        [
+            "Rack_21",
+            "Camera_10"
+        ],
+        [
+            "Rack_21",
+            "Camera_11"
+        ],
+        [
+            "Rack_21",
+            "Camera_12"
+        ],
+        [
+            "Rack_21",
+            "Camera_13"
+        ],
+        [
+            "Rack_21",
+            "Camera_14"
+        ],
+        [
+            "Rack_21",
+            "Camera_15"
+        ],
+        [
+            "Rack_21",
+            "Camera_16"
+        ],
+        [
+            "Rack_22",
+            "Rack_23"
+        ],
+        [
+            "Rack_22",
+            "Rack_24"
+        ],
+        [
+            "Rack_22",
+            "Rack_25"
+        ],
+        [
+            "Rack_22",
+            "Rack_26"
+        ],
+        [
+            "Rack_22",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_22",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_22",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_22",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_22",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_22",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_22",
+            "Camera_01"
+        ],
+        [
+            "Rack_22",
+            "Camera_02"
+        ],
+        [
+            "Rack_22",
+            "Camera_03"
+        ],
+        [
+            "Rack_22",
+            "Camera_04"
+        ],
+        [
+            "Rack_22",
+            "Camera_05"
+        ],
+        [
+            "Rack_22",
+            "Camera_06"
+        ],
+        [
+            "Rack_22",
+            "Camera_07"
+        ],
+        [
+            "Rack_22",
+            "Camera_08"
+        ],
+        [
+            "Rack_22",
+            "Camera_09"
+        ],
+        [
+            "Rack_22",
+            "Camera_10"
+        ],
+        [
+            "Rack_22",
+            "Camera_11"
+        ],
+        [
+            "Rack_22",
+            "Camera_12"
+        ],
+        [
+            "Rack_22",
+            "Camera_13"
+        ],
+        [
+            "Rack_22",
+            "Camera_14"
+        ],
+        [
+            "Rack_22",
+            "Camera_15"
+        ],
+        [
+            "Rack_22",
+            "Camera_16"
+        ],
+        [
+            "Rack_23",
+            "Rack_24"
+        ],
+        [
+            "Rack_23",
+            "Rack_25"
+        ],
+        [
+            "Rack_23",
+            "Rack_26"
+        ],
+        [
+            "Rack_23",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_23",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_23",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_23",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_23",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_23",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_23",
+            "Camera_01"
+        ],
+        [
+            "Rack_23",
+            "Camera_02"
+        ],
+        [
+            "Rack_23",
+            "Camera_03"
+        ],
+        [
+            "Rack_23",
+            "Camera_04"
+        ],
+        [
+            "Rack_23",
+            "Camera_05"
+        ],
+        [
+            "Rack_23",
+            "Camera_06"
+        ],
+        [
+            "Rack_23",
+            "Camera_07"
+        ],
+        [
+            "Rack_23",
+            "Camera_08"
+        ],
+        [
+            "Rack_23",
+            "Camera_09"
+        ],
+        [
+            "Rack_23",
+            "Camera_10"
+        ],
+        [
+            "Rack_23",
+            "Camera_11"
+        ],
+        [
+            "Rack_23",
+            "Camera_12"
+        ],
+        [
+            "Rack_23",
+            "Camera_13"
+        ],
+        [
+            "Rack_23",
+            "Camera_14"
+        ],
+        [
+            "Rack_23",
+            "Camera_15"
+        ],
+        [
+            "Rack_23",
+            "Camera_16"
+        ],
+        [
+            "Rack_24",
+            "Rack_25"
+        ],
+        [
+            "Rack_24",
+            "Rack_26"
+        ],
+        [
+            "Rack_24",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_24",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_24",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_24",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_24",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_24",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_24",
+            "Camera_01"
+        ],
+        [
+            "Rack_24",
+            "Camera_02"
+        ],
+        [
+            "Rack_24",
+            "Camera_03"
+        ],
+        [
+            "Rack_24",
+            "Camera_04"
+        ],
+        [
+            "Rack_24",
+            "Camera_05"
+        ],
+        [
+            "Rack_24",
+            "Camera_06"
+        ],
+        [
+            "Rack_24",
+            "Camera_07"
+        ],
+        [
+            "Rack_24",
+            "Camera_08"
+        ],
+        [
+            "Rack_24",
+            "Camera_09"
+        ],
+        [
+            "Rack_24",
+            "Camera_10"
+        ],
+        [
+            "Rack_24",
+            "Camera_11"
+        ],
+        [
+            "Rack_24",
+            "Camera_12"
+        ],
+        [
+            "Rack_24",
+            "Camera_13"
+        ],
+        [
+            "Rack_24",
+            "Camera_14"
+        ],
+        [
+            "Rack_24",
+            "Camera_15"
+        ],
+        [
+            "Rack_24",
+            "Camera_16"
+        ],
+        [
+            "Rack_25",
+            "Rack_26"
+        ],
+        [
+            "Rack_25",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_25",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_25",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_25",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_25",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_25",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_25",
+            "Camera_01"
+        ],
+        [
+            "Rack_25",
+            "Camera_02"
+        ],
+        [
+            "Rack_25",
+            "Camera_03"
+        ],
+        [
+            "Rack_25",
+            "Camera_04"
+        ],
+        [
+            "Rack_25",
+            "Camera_05"
+        ],
+        [
+            "Rack_25",
+            "Camera_06"
+        ],
+        [
+            "Rack_25",
+            "Camera_07"
+        ],
+        [
+            "Rack_25",
+            "Camera_08"
+        ],
+        [
+            "Rack_25",
+            "Camera_09"
+        ],
+        [
+            "Rack_25",
+            "Camera_10"
+        ],
+        [
+            "Rack_25",
+            "Camera_11"
+        ],
+        [
+            "Rack_25",
+            "Camera_12"
+        ],
+        [
+            "Rack_25",
+            "Camera_13"
+        ],
+        [
+            "Rack_25",
+            "Camera_14"
+        ],
+        [
+            "Rack_25",
+            "Camera_15"
+        ],
+        [
+            "Rack_25",
+            "Camera_16"
+        ],
+        [
+            "Rack_26",
+            "Bleacher_01"
+        ],
+        [
+            "Rack_26",
+            "Bleacher_02"
+        ],
+        [
+            "Rack_26",
+            "Bleacher_03"
+        ],
+        [
+            "Rack_26",
+            "Bleacher_04"
+        ],
+        [
+            "Rack_26",
+            "Bleacher_05"
+        ],
+        [
+            "Rack_26",
+            "Bleacher_06"
+        ],
+        [
+            "Rack_26",
+            "Camera_01"
+        ],
+        [
+            "Rack_26",
+            "Camera_02"
+        ],
+        [
+            "Rack_26",
+            "Camera_03"
+        ],
+        [
+            "Rack_26",
+            "Camera_04"
+        ],
+        [
+            "Rack_26",
+            "Camera_05"
+        ],
+        [
+            "Rack_26",
+            "Camera_06"
+        ],
+        [
+            "Rack_26",
+            "Camera_07"
+        ],
+        [
+            "Rack_26",
+            "Camera_08"
+        ],
+        [
+            "Rack_26",
+            "Camera_09"
+        ],
+        [
+            "Rack_26",
+            "Camera_10"
+        ],
+        [
+            "Rack_26",
+            "Camera_11"
+        ],
+        [
+            "Rack_26",
+            "Camera_12"
+        ],
+        [
+            "Rack_26",
+            "Camera_13"
+        ],
+        [
+            "Rack_26",
+            "Camera_14"
+        ],
+        [
+            "Rack_26",
+            "Camera_15"
+        ],
+        [
+            "Rack_26",
+            "Camera_16"
+        ],
+        [
+            "Bleacher_01",
+            "Bleacher_02"
+        ],
+        [
+            "Bleacher_01",
+            "Bleacher_03"
+        ],
+        [
+            "Bleacher_01",
+            "Bleacher_04"
+        ],
+        [
+            "Bleacher_01",
+            "Bleacher_05"
+        ],
+        [
+            "Bleacher_01",
+            "Bleacher_06"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_01"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_02"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_03"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_04"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_05"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_06"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_07"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_08"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_09"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_10"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_11"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_12"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_13"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_14"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_15"
+        ],
+        [
+            "Bleacher_01",
+            "Camera_16"
+        ],
+        [
+            "Bleacher_02",
+            "Bleacher_03"
+        ],
+        [
+            "Bleacher_02",
+            "Bleacher_04"
+        ],
+        [
+            "Bleacher_02",
+            "Bleacher_05"
+        ],
+        [
+            "Bleacher_02",
+            "Bleacher_06"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_01"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_02"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_03"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_04"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_05"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_06"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_07"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_08"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_09"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_10"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_11"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_12"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_13"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_14"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_15"
+        ],
+        [
+            "Bleacher_02",
+            "Camera_16"
+        ],
+        [
+            "Bleacher_03",
+            "Bleacher_04"
+        ],
+        [
+            "Bleacher_03",
+            "Bleacher_05"
+        ],
+        [
+            "Bleacher_03",
+            "Bleacher_06"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_01"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_02"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_03"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_04"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_05"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_06"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_07"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_08"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_09"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_10"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_11"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_12"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_13"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_14"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_15"
+        ],
+        [
+            "Bleacher_03",
+            "Camera_16"
+        ],
+        [
+            "Bleacher_04",
+            "Bleacher_05"
+        ],
+        [
+            "Bleacher_04",
+            "Bleacher_06"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_01"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_02"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_03"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_04"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_05"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_06"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_07"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_08"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_09"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_10"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_11"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_12"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_13"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_14"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_15"
+        ],
+        [
+            "Bleacher_04",
+            "Camera_16"
+        ],
+        [
+            "Bleacher_05",
+            "Bleacher_06"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_01"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_02"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_03"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_04"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_05"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_06"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_07"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_08"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_09"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_10"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_11"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_12"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_13"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_14"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_15"
+        ],
+        [
+            "Bleacher_05",
+            "Camera_16"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_01"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_02"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_03"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_04"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_05"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_06"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_07"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_08"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_09"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_10"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_11"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_12"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_13"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_14"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_15"
+        ],
+        [
+            "Bleacher_06",
+            "Camera_16"
+        ],
+        [
+            "Camera_01",
+            "Camera_02"
+        ],
+        [
+            "Camera_01",
+            "Camera_03"
+        ],
+        [
+            "Camera_01",
+            "Camera_04"
+        ],
+        [
+            "Camera_01",
+            "Camera_05"
+        ],
+        [
+            "Camera_01",
+            "Camera_06"
+        ],
+        [
+            "Camera_01",
+            "Camera_07"
+        ],
+        [
+            "Camera_01",
+            "Camera_08"
+        ],
+        [
+            "Camera_01",
+            "Camera_09"
+        ],
+        [
+            "Camera_01",
+            "Camera_10"
+        ],
+        [
+            "Camera_01",
+            "Camera_11"
+        ],
+        [
+            "Camera_01",
+            "Camera_12"
+        ],
+        [
+            "Camera_01",
+            "Camera_13"
+        ],
+        [
+            "Camera_01",
+            "Camera_14"
+        ],
+        [
+            "Camera_01",
+            "Camera_15"
+        ],
+        [
+            "Camera_01",
+            "Camera_16"
+        ],
+        [
+            "Camera_02",
+            "Camera_03"
+        ],
+        [
+            "Camera_02",
+            "Camera_04"
+        ],
+        [
+            "Camera_02",
+            "Camera_05"
+        ],
+        [
+            "Camera_02",
+            "Camera_06"
+        ],
+        [
+            "Camera_02",
+            "Camera_07"
+        ],
+        [
+            "Camera_02",
+            "Camera_08"
+        ],
+        [
+            "Camera_02",
+            "Camera_09"
+        ],
+        [
+            "Camera_02",
+            "Camera_10"
+        ],
+        [
+            "Camera_02",
+            "Camera_11"
+        ],
+        [
+            "Camera_02",
+            "Camera_12"
+        ],
+        [
+            "Camera_02",
+            "Camera_13"
+        ],
+        [
+            "Camera_02",
+            "Camera_14"
+        ],
+        [
+            "Camera_02",
+            "Camera_15"
+        ],
+        [
+            "Camera_02",
+            "Camera_16"
+        ],
+        [
+            "Camera_03",
+            "Camera_04"
+        ],
+        [
+            "Camera_03",
+            "Camera_05"
+        ],
+        [
+            "Camera_03",
+            "Camera_06"
+        ],
+        [
+            "Camera_03",
+            "Camera_07"
+        ],
+        [
+            "Camera_03",
+            "Camera_08"
+        ],
+        [
+            "Camera_03",
+            "Camera_09"
+        ],
+        [
+            "Camera_03",
+            "Camera_10"
+        ],
+        [
+            "Camera_03",
+            "Camera_11"
+        ],
+        [
+            "Camera_03",
+            "Camera_12"
+        ],
+        [
+            "Camera_03",
+            "Camera_13"
+        ],
+        [
+            "Camera_03",
+            "Camera_14"
+        ],
+        [
+            "Camera_03",
+            "Camera_15"
+        ],
+        [
+            "Camera_03",
+            "Camera_16"
+        ],
+        [
+            "Camera_04",
+            "Camera_05"
+        ],
+        [
+            "Camera_04",
+            "Camera_06"
+        ],
+        [
+            "Camera_04",
+            "Camera_07"
+        ],
+        [
+            "Camera_04",
+            "Camera_08"
+        ],
+        [
+            "Camera_04",
+            "Camera_09"
+        ],
+        [
+            "Camera_04",
+            "Camera_10"
+        ],
+        [
+            "Camera_04",
+            "Camera_11"
+        ],
+        [
+            "Camera_04",
+            "Camera_12"
+        ],
+        [
+            "Camera_04",
+            "Camera_13"
+        ],
+        [
+            "Camera_04",
+            "Camera_14"
+        ],
+        [
+            "Camera_04",
+            "Camera_15"
+        ],
+        [
+            "Camera_04",
+            "Camera_16"
+        ],
+        [
+            "Camera_05",
+            "Camera_06"
+        ],
+        [
+            "Camera_05",
+            "Camera_07"
+        ],
+        [
+            "Camera_05",
+            "Camera_08"
+        ],
+        [
+            "Camera_05",
+            "Camera_09"
+        ],
+        [
+            "Camera_05",
+            "Camera_10"
+        ],
+        [
+            "Camera_05",
+            "Camera_11"
+        ],
+        [
+            "Camera_05",
+            "Camera_12"
+        ],
+        [
+            "Camera_05",
+            "Camera_13"
+        ],
+        [
+            "Camera_05",
+            "Camera_14"
+        ],
+        [
+            "Camera_05",
+            "Camera_15"
+        ],
+        [
+            "Camera_05",
+            "Camera_16"
+        ],
+        [
+            "Camera_06",
+            "Camera_07"
+        ],
+        [
+            "Camera_06",
+            "Camera_08"
+        ],
+        [
+            "Camera_06",
+            "Camera_09"
+        ],
+        [
+            "Camera_06",
+            "Camera_10"
+        ],
+        [
+            "Camera_06",
+            "Camera_11"
+        ],
+        [
+            "Camera_06",
+            "Camera_12"
+        ],
+        [
+            "Camera_06",
+            "Camera_13"
+        ],
+        [
+            "Camera_06",
+            "Camera_14"
+        ],
+        [
+            "Camera_06",
+            "Camera_15"
+        ],
+        [
+            "Camera_06",
+            "Camera_16"
+        ],
+        [
+            "Camera_07",
+            "Camera_08"
+        ],
+        [
+            "Camera_07",
+            "Camera_09"
+        ],
+        [
+            "Camera_07",
+            "Camera_10"
+        ],
+        [
+            "Camera_07",
+            "Camera_11"
+        ],
+        [
+            "Camera_07",
+            "Camera_12"
+        ],
+        [
+            "Camera_07",
+            "Camera_13"
+        ],
+        [
+            "Camera_07",
+            "Camera_14"
+        ],
+        [
+            "Camera_07",
+            "Camera_15"
+        ],
+        [
+            "Camera_07",
+            "Camera_16"
+        ],
+        [
+            "Camera_08",
+            "Camera_09"
+        ],
+        [
+            "Camera_08",
+            "Camera_10"
+        ],
+        [
+            "Camera_08",
+            "Camera_11"
+        ],
+        [
+            "Camera_08",
+            "Camera_12"
+        ],
+        [
+            "Camera_08",
+            "Camera_13"
+        ],
+        [
+            "Camera_08",
+            "Camera_14"
+        ],
+        [
+            "Camera_08",
+            "Camera_15"
+        ],
+        [
+            "Camera_08",
+            "Camera_16"
+        ],
+        [
+            "Camera_09",
+            "Camera_10"
+        ],
+        [
+            "Camera_09",
+            "Camera_11"
+        ],
+        [
+            "Camera_09",
+            "Camera_12"
+        ],
+        [
+            "Camera_09",
+            "Camera_13"
+        ],
+        [
+            "Camera_09",
+            "Camera_14"
+        ],
+        [
+            "Camera_09",
+            "Camera_15"
+        ],
+        [
+            "Camera_09",
+            "Camera_16"
+        ],
+        [
+            "Camera_10",
+            "Camera_11"
+        ],
+        [
+            "Camera_10",
+            "Camera_12"
+        ],
+        [
+            "Camera_10",
+            "Camera_13"
+        ],
+        [
+            "Camera_10",
+            "Camera_14"
+        ],
+        [
+            "Camera_10",
+            "Camera_15"
+        ],
+        [
+            "Camera_10",
+            "Camera_16"
+        ],
+        [
+            "Camera_11",
+            "Camera_12"
+        ],
+        [
+            "Camera_11",
+            "Camera_13"
+        ],
+        [
+            "Camera_11",
+            "Camera_14"
+        ],
+        [
+            "Camera_11",
+            "Camera_15"
+        ],
+        [
+            "Camera_11",
+            "Camera_16"
+        ],
+        [
+            "Camera_12",
+            "Camera_13"
+        ],
+        [
+            "Camera_12",
+            "Camera_14"
+        ],
+        [
+            "Camera_12",
+            "Camera_15"
+        ],
+        [
+            "Camera_12",
+            "Camera_16"
+        ],
+        [
+            "Camera_13",
+            "Camera_14"
+        ],
+        [
+            "Camera_13",
+            "Camera_15"
+        ],
+        [
+            "Camera_13",
+            "Camera_16"
+        ],
+        [
+            "Camera_14",
+            "Camera_15"
+        ],
+        [
+            "Camera_14",
+            "Camera_16"
+        ],
+        [
+            "Camera_15",
+            "Camera_16"
         ]
     ]
 }

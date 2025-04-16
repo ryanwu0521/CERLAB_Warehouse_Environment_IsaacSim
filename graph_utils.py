@@ -6,6 +6,9 @@
 import json
 import os
 
+# Configuration
+import config
+
 # External Libraries
 import numpy as np
 import networkx as nx
@@ -57,7 +60,7 @@ def draw_feature_graph(feature_graph, threshold=None, margin=None, show_overlap=
     fig = plt.figure(figsize=(10, 8))
     ax = fig.add_subplot(111, projection='3d')
     
-    color_map = {"rack": "blue", "crane": "red", "forklift": "green"}
+    color_map = {"rack": "blue", "crane": "red", "forklift": "green", "camera ": "purple", "bleacher": "orange"}
     
     # Draw nodes
     for node, data in feature_graph.nodes(data=True):
@@ -66,15 +69,21 @@ def draw_feature_graph(feature_graph, threshold=None, margin=None, show_overlap=
         node_color = color_map.get(feature.feature_type, "black")
         ax.scatter(pos[0], pos[1], pos[2], color=node_color, s=50)
         ax.text(pos[0], pos[1], pos[2], f"{node}", size=10, zorder=1, color='k')
+
+    # Draw edges only if the distance is below a threshold
+    from config import MAX_EDGE_DISTANCE
     
     # Draw edges
     for edge in feature_graph.edges():
         pos1 = feature_graph.nodes[edge[0]]['feature'].position
         pos2 = feature_graph.nodes[edge[1]]['feature'].position
-        xs = [pos1[0], pos2[0]]
-        ys = [pos1[1], pos2[1]]
-        zs = [pos1[2], pos2[2]]
-        ax.plot(xs, ys, zs, color="gray", alpha=0.7)
+        distance = np.linalg.norm(pos1 - pos2)
+
+        if distance <= MAX_EDGE_DISTANCE:
+            xs = [pos1[0], pos2[0]]
+            ys = [pos1[1], pos2[1]]
+            zs = [pos1[2], pos2[2]]
+            ax.plot(xs, ys, zs, color="gray", alpha=0.7)
 
     # Highlight overlap region using a semi-transparent shading
     if show_overlap and threshold is not None and margin is not None:
@@ -170,7 +179,7 @@ def save_graph(graph, folder, filename_prefix):
     
     if graph.number_of_nodes() > 0:
         plt.figure(figsize=(10, 8))
-        draw_feature_graph(graph)
+        draw_feature_graph(graph, threshold=1000)
         plt.savefig(png_filename, dpi=300)
         plt.close()  # Prevents memory leaks
         # print(f"\nGraph visualization saved: {png_filename}")
