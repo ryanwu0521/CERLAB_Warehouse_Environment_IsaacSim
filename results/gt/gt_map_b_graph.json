@@ -1,6 +1,44 @@
 {
     "features": [
         {
+            "feature_id": "Rack_05",
+            "feature_type": "rack",
+            "position": [
+                250.0,
+                -75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                250.0,
+                -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
             "feature_id": "Rack_06",
             "feature_type": "rack",
             "position": [
@@ -300,6 +338,44 @@
             "descriptor": [
                 650.0,
                 -75.0,
+                0.0,
+                270.7890442948097
+            ]
+        },
+        {
+            "feature_id": "Rack_18",
+            "feature_type": "rack",
+            "position": [
+                250.0,
+                75.0,
+                0.0
+            ],
+            "radius": 270.7890442948097,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                250.0,
+                75.0,
                 0.0,
                 270.7890442948097
             ]
@@ -609,14 +685,52 @@
             ]
         },
         {
-            "feature_id": "Bleacher_03",
-            "feature_type": "bleacher",
+            "feature_id": "Pile_04",
+            "feature_type": "pile",
+            "position": [
+                260.0,
+                0.0,
+                0.0
+            ],
+            "radius": 109.35256650633609,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                260.0,
+                0.0,
+                0.0,
+                109.35256650633609
+            ]
+        },
+        {
+            "feature_id": "Pile_05",
+            "feature_type": "pile",
             "position": [
                 300.0,
-                -250.0,
+                0.0,
                 0.0
             ],
-            "radius": 302.5768720356272,
+            "radius": 109.35256650633609,
             "orientation": null,
             "scale": 1.0,
             "covariance": [
@@ -641,20 +755,20 @@
             "timestamp": null,
             "descriptor": [
                 300.0,
-                -250.0,
                 0.0,
-                302.5768720356272
+                0.0,
+                109.35256650633609
             ]
         },
         {
-            "feature_id": "Bleacher_04",
-            "feature_type": "bleacher",
+            "feature_id": "Pile_06",
+            "feature_type": "pile",
             "position": [
-                400.0,
-                -250.0,
+                370.0,
+                0.0,
                 0.0
             ],
-            "radius": 302.5768720356272,
+            "radius": 109.35256650633609,
             "orientation": null,
             "scale": 1.0,
             "covariance": [
@@ -678,21 +792,97 @@
             "source_map": "Warehouse",
             "timestamp": null,
             "descriptor": [
-                400.0,
-                -250.0,
+                370.0,
                 0.0,
-                302.5768720356272
+                0.0,
+                109.35256650633609
             ]
         },
         {
-            "feature_id": "Bleacher_05",
-            "feature_type": "bleacher",
+            "feature_id": "Pile_07",
+            "feature_type": "pile",
+            "position": [
+                420.0,
+                0.0,
+                0.0
+            ],
+            "radius": 109.35256650633609,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                420.0,
+                0.0,
+                0.0,
+                109.35256650633609
+            ]
+        },
+        {
+            "feature_id": "Pile_08",
+            "feature_type": "pile",
+            "position": [
+                460.0,
+                0.0,
+                0.0
+            ],
+            "radius": 109.35256650633609,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                460.0,
+                0.0,
+                0.0,
+                109.35256650633609
+            ]
+        },
+        {
+            "feature_id": "Pile_09",
+            "feature_type": "pile",
             "position": [
                 500.0,
-                -250.0,
+                0.0,
                 0.0
             ],
-            "radius": 302.5768720356272,
+            "radius": 109.35256650633609,
             "orientation": null,
             "scale": 1.0,
             "covariance": [
@@ -717,20 +907,362 @@
             "timestamp": null,
             "descriptor": [
                 500.0,
-                -250.0,
                 0.0,
-                302.5768720356272
+                0.0,
+                109.35256650633609
             ]
         },
         {
-            "feature_id": "Bleacher_06",
-            "feature_type": "bleacher",
+            "feature_id": "Pile_10",
+            "feature_type": "pile",
             "position": [
-                600.0,
-                -250.0,
+                570.0,
+                0.0,
                 0.0
             ],
-            "radius": 302.5768720356272,
+            "radius": 109.3525665063364,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                570.0,
+                0.0,
+                0.0,
+                109.3525665063364
+            ]
+        },
+        {
+            "feature_id": "Pile_11",
+            "feature_type": "pile",
+            "position": [
+                630.0,
+                0.0,
+                0.0
+            ],
+            "radius": 109.3525665063364,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                630.0,
+                0.0,
+                0.0,
+                109.3525665063364
+            ]
+        },
+        {
+            "feature_id": "Person_05",
+            "feature_type": "person",
+            "position": [
+                250.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139998,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                250.0,
+                -190.0,
+                0.0,
+                14.422581543139998
+            ]
+        },
+        {
+            "feature_id": "Person_06",
+            "feature_type": "person",
+            "position": [
+                300.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                300.0,
+                -190.0,
+                0.0,
+                14.422581543139978
+            ]
+        },
+        {
+            "feature_id": "Person_07",
+            "feature_type": "person",
+            "position": [
+                350.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                350.0,
+                -190.0,
+                0.0,
+                14.422581543139978
+            ]
+        },
+        {
+            "feature_id": "Person_08",
+            "feature_type": "person",
+            "position": [
+                400.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                400.0,
+                -190.0,
+                0.0,
+                14.422581543139978
+            ]
+        },
+        {
+            "feature_id": "Person_09",
+            "feature_type": "person",
+            "position": [
+                450.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                450.0,
+                -190.0,
+                0.0,
+                14.422581543139978
+            ]
+        },
+        {
+            "feature_id": "Person_10",
+            "feature_type": "person",
+            "position": [
+                500.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                500.0,
+                -190.0,
+                0.0,
+                14.422581543139978
+            ]
+        },
+        {
+            "feature_id": "Person_11",
+            "feature_type": "person",
+            "position": [
+                550.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
+            "orientation": null,
+            "scale": 1.0,
+            "covariance": [
+                [
+                    0.01,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.01,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.01
+                ]
+            ],
+            "confidence": 1.0,
+            "source_map": "Warehouse",
+            "timestamp": null,
+            "descriptor": [
+                550.0,
+                -190.0,
+                0.0,
+                14.422581543139978
+            ]
+        },
+        {
+            "feature_id": "Person_12",
+            "feature_type": "person",
+            "position": [
+                600.0,
+                -190.0,
+                0.0
+            ],
+            "radius": 14.422581543139978,
             "orientation": null,
             "scale": 1.0,
             "covariance": [
@@ -755,393 +1287,145 @@
             "timestamp": null,
             "descriptor": [
                 600.0,
-                -250.0,
+                -190.0,
                 0.0,
-                302.5768720356272
-            ]
-        },
-        {
-            "feature_id": "Camera_04",
-            "feature_type": "camera",
-            "position": [
-                329.0,
-                148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                329.0,
-                148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_05",
-            "feature_type": "camera",
-            "position": [
-                395.0,
-                148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                395.0,
-                148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_06",
-            "feature_type": "camera",
-            "position": [
-                530.0,
-                148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                530.0,
-                148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_07",
-            "feature_type": "camera",
-            "position": [
-                595.0,
-                148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                595.0,
-                148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_08",
-            "feature_type": "camera",
-            "position": [
-                660.0,
-                148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                660.0,
-                148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_11",
-            "feature_type": "camera",
-            "position": [
-                395.0,
-                -148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                395.0,
-                -148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_12",
-            "feature_type": "camera",
-            "position": [
-                329.0,
-                -148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                329.0,
-                -148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_14",
-            "feature_type": "camera",
-            "position": [
-                595.0,
-                -148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                595.0,
-                -148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_15",
-            "feature_type": "camera",
-            "position": [
-                530.0,
-                -148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                530.0,
-                -148.0,
-                80.00000000000001,
-                18.912409128337842
-            ]
-        },
-        {
-            "feature_id": "Camera_16",
-            "feature_type": "camera",
-            "position": [
-                660.0,
-                -148.0,
-                80.00000000000001
-            ],
-            "radius": 18.912409128337842,
-            "orientation": null,
-            "scale": 1.0,
-            "covariance": [
-                [
-                    0.01,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.01,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.01
-                ]
-            ],
-            "confidence": 1.0,
-            "source_map": "Warehouse",
-            "timestamp": null,
-            "descriptor": [
-                660.0,
-                -148.0,
-                80.00000000000001,
-                18.912409128337842
+                14.422581543139978
             ]
         }
     ],
     "edges": [
+        [
+            "Rack_05",
+            "Rack_06"
+        ],
+        [
+            "Rack_05",
+            "Rack_07"
+        ],
+        [
+            "Rack_05",
+            "Rack_08"
+        ],
+        [
+            "Rack_05",
+            "Rack_09"
+        ],
+        [
+            "Rack_05",
+            "Rack_10"
+        ],
+        [
+            "Rack_05",
+            "Rack_11"
+        ],
+        [
+            "Rack_05",
+            "Rack_12"
+        ],
+        [
+            "Rack_05",
+            "Rack_13"
+        ],
+        [
+            "Rack_05",
+            "Rack_18"
+        ],
+        [
+            "Rack_05",
+            "Rack_19"
+        ],
+        [
+            "Rack_05",
+            "Rack_20"
+        ],
+        [
+            "Rack_05",
+            "Rack_21"
+        ],
+        [
+            "Rack_05",
+            "Rack_22"
+        ],
+        [
+            "Rack_05",
+            "Rack_23"
+        ],
+        [
+            "Rack_05",
+            "Rack_24"
+        ],
+        [
+            "Rack_05",
+            "Rack_25"
+        ],
+        [
+            "Rack_05",
+            "Rack_26"
+        ],
+        [
+            "Rack_05",
+            "Pile_04"
+        ],
+        [
+            "Rack_05",
+            "Pile_05"
+        ],
+        [
+            "Rack_05",
+            "Pile_06"
+        ],
+        [
+            "Rack_05",
+            "Pile_07"
+        ],
+        [
+            "Rack_05",
+            "Pile_08"
+        ],
+        [
+            "Rack_05",
+            "Pile_09"
+        ],
+        [
+            "Rack_05",
+            "Pile_10"
+        ],
+        [
+            "Rack_05",
+            "Pile_11"
+        ],
+        [
+            "Rack_05",
+            "Person_05"
+        ],
+        [
+            "Rack_05",
+            "Person_06"
+        ],
+        [
+            "Rack_05",
+            "Person_07"
+        ],
+        [
+            "Rack_05",
+            "Person_08"
+        ],
+        [
+            "Rack_05",
+            "Person_09"
+        ],
+        [
+            "Rack_05",
+            "Person_10"
+        ],
+        [
+            "Rack_05",
+            "Person_11"
+        ],
+        [
+            "Rack_05",
+            "Person_12"
+        ],
         [
             "Rack_06",
             "Rack_07"
@@ -1172,6 +1456,10 @@
         ],
         [
             "Rack_06",
+            "Rack_18"
+        ],
+        [
+            "Rack_06",
             "Rack_19"
         ],
         [
@@ -1204,59 +1492,67 @@
         ],
         [
             "Rack_06",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_06",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_06",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_06",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_06",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_06",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_06",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_06",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_06",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_06",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_06",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_06",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_06",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_06",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_06",
+            "Person_11"
+        ],
+        [
+            "Rack_06",
+            "Person_12"
         ],
         [
             "Rack_07",
@@ -1284,6 +1580,10 @@
         ],
         [
             "Rack_07",
+            "Rack_18"
+        ],
+        [
+            "Rack_07",
             "Rack_19"
         ],
         [
@@ -1316,59 +1616,67 @@
         ],
         [
             "Rack_07",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_07",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_07",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_07",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_07",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_07",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_07",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_07",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_07",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_07",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_07",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_07",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_07",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_07",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_07",
+            "Person_11"
+        ],
+        [
+            "Rack_07",
+            "Person_12"
         ],
         [
             "Rack_08",
@@ -1392,6 +1700,10 @@
         ],
         [
             "Rack_08",
+            "Rack_18"
+        ],
+        [
+            "Rack_08",
             "Rack_19"
         ],
         [
@@ -1424,59 +1736,67 @@
         ],
         [
             "Rack_08",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_08",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_08",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_08",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_08",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_08",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_08",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_08",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_08",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_08",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_08",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_08",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_08",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_08",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_08",
+            "Person_11"
+        ],
+        [
+            "Rack_08",
+            "Person_12"
         ],
         [
             "Rack_09",
@@ -1496,6 +1816,10 @@
         ],
         [
             "Rack_09",
+            "Rack_18"
+        ],
+        [
+            "Rack_09",
             "Rack_19"
         ],
         [
@@ -1528,59 +1852,67 @@
         ],
         [
             "Rack_09",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_09",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_09",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_09",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_09",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_09",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_09",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_09",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_09",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_09",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_09",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_09",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_09",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_09",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_09",
+            "Person_11"
+        ],
+        [
+            "Rack_09",
+            "Person_12"
         ],
         [
             "Rack_10",
@@ -1596,6 +1928,10 @@
         ],
         [
             "Rack_10",
+            "Rack_18"
+        ],
+        [
+            "Rack_10",
             "Rack_19"
         ],
         [
@@ -1628,59 +1964,67 @@
         ],
         [
             "Rack_10",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_10",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_10",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_10",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_10",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_10",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_10",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_10",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_10",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_10",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_10",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_10",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_10",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_10",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_10",
+            "Person_11"
+        ],
+        [
+            "Rack_10",
+            "Person_12"
         ],
         [
             "Rack_11",
@@ -1692,6 +2036,10 @@
         ],
         [
             "Rack_11",
+            "Rack_18"
+        ],
+        [
+            "Rack_11",
             "Rack_19"
         ],
         [
@@ -1724,59 +2072,67 @@
         ],
         [
             "Rack_11",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_11",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_11",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_11",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_11",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_11",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_11",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_11",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_11",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_11",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_11",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_11",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_11",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_11",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_11",
+            "Person_11"
+        ],
+        [
+            "Rack_11",
+            "Person_12"
         ],
         [
             "Rack_12",
@@ -1784,6 +2140,10 @@
         ],
         [
             "Rack_12",
+            "Rack_18"
+        ],
+        [
+            "Rack_12",
             "Rack_19"
         ],
         [
@@ -1816,59 +2176,71 @@
         ],
         [
             "Rack_12",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_12",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_12",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_12",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_12",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_12",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_12",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_12",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_12",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_12",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_12",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_12",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_12",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_12",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_12",
+            "Person_11"
+        ],
+        [
+            "Rack_12",
+            "Person_12"
+        ],
+        [
+            "Rack_13",
+            "Rack_18"
         ],
         [
             "Rack_13",
@@ -1904,59 +2276,163 @@
         ],
         [
             "Rack_13",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_13",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_13",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_13",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_13",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_13",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_13",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_13",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_13",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_13",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_13",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_13",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_13",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_13",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_13",
+            "Person_11"
+        ],
+        [
+            "Rack_13",
+            "Person_12"
+        ],
+        [
+            "Rack_18",
+            "Rack_19"
+        ],
+        [
+            "Rack_18",
+            "Rack_20"
+        ],
+        [
+            "Rack_18",
+            "Rack_21"
+        ],
+        [
+            "Rack_18",
+            "Rack_22"
+        ],
+        [
+            "Rack_18",
+            "Rack_23"
+        ],
+        [
+            "Rack_18",
+            "Rack_24"
+        ],
+        [
+            "Rack_18",
+            "Rack_25"
+        ],
+        [
+            "Rack_18",
+            "Rack_26"
+        ],
+        [
+            "Rack_18",
+            "Pile_04"
+        ],
+        [
+            "Rack_18",
+            "Pile_05"
+        ],
+        [
+            "Rack_18",
+            "Pile_06"
+        ],
+        [
+            "Rack_18",
+            "Pile_07"
+        ],
+        [
+            "Rack_18",
+            "Pile_08"
+        ],
+        [
+            "Rack_18",
+            "Pile_09"
+        ],
+        [
+            "Rack_18",
+            "Pile_10"
+        ],
+        [
+            "Rack_18",
+            "Pile_11"
+        ],
+        [
+            "Rack_18",
+            "Person_05"
+        ],
+        [
+            "Rack_18",
+            "Person_06"
+        ],
+        [
+            "Rack_18",
+            "Person_07"
+        ],
+        [
+            "Rack_18",
+            "Person_08"
+        ],
+        [
+            "Rack_18",
+            "Person_09"
+        ],
+        [
+            "Rack_18",
+            "Person_10"
+        ],
+        [
+            "Rack_18",
+            "Person_11"
+        ],
+        [
+            "Rack_18",
+            "Person_12"
         ],
         [
             "Rack_19",
@@ -1988,59 +2464,67 @@
         ],
         [
             "Rack_19",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_19",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_19",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_19",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_19",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_19",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_19",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_19",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_19",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_19",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_19",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_19",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_19",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_19",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_19",
+            "Person_11"
+        ],
+        [
+            "Rack_19",
+            "Person_12"
         ],
         [
             "Rack_20",
@@ -2068,59 +2552,67 @@
         ],
         [
             "Rack_20",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_20",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_20",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_20",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_20",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_20",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_20",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_20",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_20",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_20",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_20",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_20",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_20",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_20",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_20",
+            "Person_11"
+        ],
+        [
+            "Rack_20",
+            "Person_12"
         ],
         [
             "Rack_21",
@@ -2144,59 +2636,67 @@
         ],
         [
             "Rack_21",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_21",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_21",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_21",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_21",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_21",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_21",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_21",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_21",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_21",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_21",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_21",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_21",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_21",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_21",
+            "Person_11"
+        ],
+        [
+            "Rack_21",
+            "Person_12"
         ],
         [
             "Rack_22",
@@ -2216,59 +2716,67 @@
         ],
         [
             "Rack_22",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_22",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_22",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_22",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_22",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_22",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_22",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_22",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_22",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_22",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_22",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_22",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_22",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_22",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_22",
+            "Person_11"
+        ],
+        [
+            "Rack_22",
+            "Person_12"
         ],
         [
             "Rack_23",
@@ -2284,59 +2792,67 @@
         ],
         [
             "Rack_23",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_23",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_23",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_23",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_23",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_23",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_23",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_23",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_23",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_23",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_23",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_23",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_23",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_23",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_23",
+            "Person_11"
+        ],
+        [
+            "Rack_23",
+            "Person_12"
         ],
         [
             "Rack_24",
@@ -2348,59 +2864,67 @@
         ],
         [
             "Rack_24",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_24",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_24",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_24",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_24",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_24",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_24",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_24",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_24",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_24",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_24",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_24",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_24",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_24",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_24",
+            "Person_11"
+        ],
+        [
+            "Rack_24",
+            "Person_12"
         ],
         [
             "Rack_25",
@@ -2408,479 +2932,611 @@
         ],
         [
             "Rack_25",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_25",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_25",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_25",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_25",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_25",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_25",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_25",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_25",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_25",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_25",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_25",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_25",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_25",
-            "Camera_16"
+            "Person_10"
+        ],
+        [
+            "Rack_25",
+            "Person_11"
+        ],
+        [
+            "Rack_25",
+            "Person_12"
         ],
         [
             "Rack_26",
-            "Bleacher_03"
+            "Pile_04"
         ],
         [
             "Rack_26",
-            "Bleacher_04"
+            "Pile_05"
         ],
         [
             "Rack_26",
-            "Bleacher_05"
+            "Pile_06"
         ],
         [
             "Rack_26",
-            "Bleacher_06"
+            "Pile_07"
         ],
         [
             "Rack_26",
-            "Camera_04"
+            "Pile_08"
         ],
         [
             "Rack_26",
-            "Camera_05"
+            "Pile_09"
         ],
         [
             "Rack_26",
-            "Camera_06"
+            "Pile_10"
         ],
         [
             "Rack_26",
-            "Camera_07"
+            "Pile_11"
         ],
         [
             "Rack_26",
-            "Camera_08"
+            "Person_05"
         ],
         [
             "Rack_26",
-            "Camera_11"
+            "Person_06"
         ],
         [
             "Rack_26",
-            "Camera_12"
+            "Person_07"
         ],
         [
             "Rack_26",
-            "Camera_14"
+            "Person_08"
         ],
         [
             "Rack_26",
-            "Camera_15"
+            "Person_09"
         ],
         [
             "Rack_26",
-            "Camera_16"
+            "Person_10"
         ],
         [
-            "Bleacher_03",
-            "Bleacher_04"
+            "Rack_26",
+            "Person_11"
         ],
         [
-            "Bleacher_03",
-            "Bleacher_05"
+            "Rack_26",
+            "Person_12"
         ],
         [
-            "Bleacher_03",
-            "Bleacher_06"
+            "Pile_04",
+            "Pile_05"
         ],
         [
-            "Bleacher_03",
-            "Camera_04"
+            "Pile_04",
+            "Pile_06"
         ],
         [
-            "Bleacher_03",
-            "Camera_05"
+            "Pile_04",
+            "Pile_07"
         ],
         [
-            "Bleacher_03",
-            "Camera_06"
+            "Pile_04",
+            "Pile_08"
         ],
         [
-            "Bleacher_03",
-            "Camera_07"
+            "Pile_04",
+            "Pile_09"
         ],
         [
-            "Bleacher_03",
-            "Camera_08"
+            "Pile_04",
+            "Pile_10"
         ],
         [
-            "Bleacher_03",
-            "Camera_11"
+            "Pile_04",
+            "Pile_11"
         ],
         [
-            "Bleacher_03",
-            "Camera_12"
+            "Pile_04",
+            "Person_05"
         ],
         [
-            "Bleacher_03",
-            "Camera_14"
+            "Pile_04",
+            "Person_06"
         ],
         [
-            "Bleacher_03",
-            "Camera_15"
+            "Pile_04",
+            "Person_07"
         ],
         [
-            "Bleacher_03",
-            "Camera_16"
+            "Pile_04",
+            "Person_08"
         ],
         [
-            "Bleacher_04",
-            "Bleacher_05"
+            "Pile_04",
+            "Person_09"
         ],
         [
-            "Bleacher_04",
-            "Bleacher_06"
+            "Pile_04",
+            "Person_10"
         ],
         [
-            "Bleacher_04",
-            "Camera_04"
+            "Pile_04",
+            "Person_11"
         ],
         [
-            "Bleacher_04",
-            "Camera_05"
+            "Pile_04",
+            "Person_12"
         ],
         [
-            "Bleacher_04",
-            "Camera_06"
+            "Pile_05",
+            "Pile_06"
         ],
         [
-            "Bleacher_04",
-            "Camera_07"
+            "Pile_05",
+            "Pile_07"
         ],
         [
-            "Bleacher_04",
-            "Camera_08"
+            "Pile_05",
+            "Pile_08"
         ],
         [
-            "Bleacher_04",
-            "Camera_11"
+            "Pile_05",
+            "Pile_09"
         ],
         [
-            "Bleacher_04",
-            "Camera_12"
+            "Pile_05",
+            "Pile_10"
         ],
         [
-            "Bleacher_04",
-            "Camera_14"
+            "Pile_05",
+            "Pile_11"
         ],
         [
-            "Bleacher_04",
-            "Camera_15"
+            "Pile_05",
+            "Person_05"
         ],
         [
-            "Bleacher_04",
-            "Camera_16"
+            "Pile_05",
+            "Person_06"
         ],
         [
-            "Bleacher_05",
-            "Bleacher_06"
+            "Pile_05",
+            "Person_07"
         ],
         [
-            "Bleacher_05",
-            "Camera_04"
+            "Pile_05",
+            "Person_08"
         ],
         [
-            "Bleacher_05",
-            "Camera_05"
+            "Pile_05",
+            "Person_09"
         ],
         [
-            "Bleacher_05",
-            "Camera_06"
+            "Pile_05",
+            "Person_10"
         ],
         [
-            "Bleacher_05",
-            "Camera_07"
+            "Pile_05",
+            "Person_11"
         ],
         [
-            "Bleacher_05",
-            "Camera_08"
+            "Pile_05",
+            "Person_12"
         ],
         [
-            "Bleacher_05",
-            "Camera_11"
+            "Pile_06",
+            "Pile_07"
         ],
         [
-            "Bleacher_05",
-            "Camera_12"
+            "Pile_06",
+            "Pile_08"
         ],
         [
-            "Bleacher_05",
-            "Camera_14"
+            "Pile_06",
+            "Pile_09"
         ],
         [
-            "Bleacher_05",
-            "Camera_15"
+            "Pile_06",
+            "Pile_10"
         ],
         [
-            "Bleacher_05",
-            "Camera_16"
+            "Pile_06",
+            "Pile_11"
         ],
         [
-            "Bleacher_06",
-            "Camera_04"
+            "Pile_06",
+            "Person_05"
         ],
         [
-            "Bleacher_06",
-            "Camera_05"
+            "Pile_06",
+            "Person_06"
         ],
         [
-            "Bleacher_06",
-            "Camera_06"
+            "Pile_06",
+            "Person_07"
         ],
         [
-            "Bleacher_06",
-            "Camera_07"
+            "Pile_06",
+            "Person_08"
         ],
         [
-            "Bleacher_06",
-            "Camera_08"
+            "Pile_06",
+            "Person_09"
         ],
         [
-            "Bleacher_06",
-            "Camera_11"
+            "Pile_06",
+            "Person_10"
         ],
         [
-            "Bleacher_06",
-            "Camera_12"
+            "Pile_06",
+            "Person_11"
         ],
         [
-            "Bleacher_06",
-            "Camera_14"
+            "Pile_06",
+            "Person_12"
         ],
         [
-            "Bleacher_06",
-            "Camera_15"
+            "Pile_07",
+            "Pile_08"
         ],
         [
-            "Bleacher_06",
-            "Camera_16"
+            "Pile_07",
+            "Pile_09"
         ],
         [
-            "Camera_04",
-            "Camera_05"
+            "Pile_07",
+            "Pile_10"
         ],
         [
-            "Camera_04",
-            "Camera_06"
+            "Pile_07",
+            "Pile_11"
         ],
         [
-            "Camera_04",
-            "Camera_07"
+            "Pile_07",
+            "Person_05"
         ],
         [
-            "Camera_04",
-            "Camera_08"
+            "Pile_07",
+            "Person_06"
         ],
         [
-            "Camera_04",
-            "Camera_11"
+            "Pile_07",
+            "Person_07"
         ],
         [
-            "Camera_04",
-            "Camera_12"
+            "Pile_07",
+            "Person_08"
         ],
         [
-            "Camera_04",
-            "Camera_14"
+            "Pile_07",
+            "Person_09"
         ],
         [
-            "Camera_04",
-            "Camera_15"
+            "Pile_07",
+            "Person_10"
         ],
         [
-            "Camera_04",
-            "Camera_16"
+            "Pile_07",
+            "Person_11"
         ],
         [
-            "Camera_05",
-            "Camera_06"
+            "Pile_07",
+            "Person_12"
         ],
         [
-            "Camera_05",
-            "Camera_07"
+            "Pile_08",
+            "Pile_09"
         ],
         [
-            "Camera_05",
-            "Camera_08"
+            "Pile_08",
+            "Pile_10"
         ],
         [
-            "Camera_05",
-            "Camera_11"
+            "Pile_08",
+            "Pile_11"
         ],
         [
-            "Camera_05",
-            "Camera_12"
+            "Pile_08",
+            "Person_05"
         ],
         [
-            "Camera_05",
-            "Camera_14"
+            "Pile_08",
+            "Person_06"
         ],
         [
-            "Camera_05",
-            "Camera_15"
+            "Pile_08",
+            "Person_07"
         ],
         [
-            "Camera_05",
-            "Camera_16"
+            "Pile_08",
+            "Person_08"
         ],
         [
-            "Camera_06",
-            "Camera_07"
+            "Pile_08",
+            "Person_09"
         ],
         [
-            "Camera_06",
-            "Camera_08"
+            "Pile_08",
+            "Person_10"
         ],
         [
-            "Camera_06",
-            "Camera_11"
+            "Pile_08",
+            "Person_11"
         ],
         [
-            "Camera_06",
-            "Camera_12"
+            "Pile_08",
+            "Person_12"
         ],
         [
-            "Camera_06",
-            "Camera_14"
+            "Pile_09",
+            "Pile_10"
         ],
         [
-            "Camera_06",
-            "Camera_15"
+            "Pile_09",
+            "Pile_11"
         ],
         [
-            "Camera_06",
-            "Camera_16"
+            "Pile_09",
+            "Person_05"
         ],
         [
-            "Camera_07",
-            "Camera_08"
+            "Pile_09",
+            "Person_06"
         ],
         [
-            "Camera_07",
-            "Camera_11"
+            "Pile_09",
+            "Person_07"
         ],
         [
-            "Camera_07",
-            "Camera_12"
+            "Pile_09",
+            "Person_08"
         ],
         [
-            "Camera_07",
-            "Camera_14"
+            "Pile_09",
+            "Person_09"
         ],
         [
-            "Camera_07",
-            "Camera_15"
+            "Pile_09",
+            "Person_10"
         ],
         [
-            "Camera_07",
-            "Camera_16"
+            "Pile_09",
+            "Person_11"
         ],
         [
-            "Camera_08",
-            "Camera_11"
+            "Pile_09",
+            "Person_12"
         ],
         [
-            "Camera_08",
-            "Camera_12"
+            "Pile_10",
+            "Pile_11"
         ],
         [
-            "Camera_08",
-            "Camera_14"
+            "Pile_10",
+            "Person_05"
         ],
         [
-            "Camera_08",
-            "Camera_15"
+            "Pile_10",
+            "Person_06"
         ],
         [
-            "Camera_08",
-            "Camera_16"
+            "Pile_10",
+            "Person_07"
         ],
         [
-            "Camera_11",
-            "Camera_12"
+            "Pile_10",
+            "Person_08"
         ],
         [
-            "Camera_11",
-            "Camera_14"
+            "Pile_10",
+            "Person_09"
         ],
         [
-            "Camera_11",
-            "Camera_15"
+            "Pile_10",
+            "Person_10"
         ],
         [
-            "Camera_11",
-            "Camera_16"
+            "Pile_10",
+            "Person_11"
         ],
         [
-            "Camera_12",
-            "Camera_14"
+            "Pile_10",
+            "Person_12"
         ],
         [
-            "Camera_12",
-            "Camera_15"
+            "Pile_11",
+            "Person_05"
         ],
         [
-            "Camera_12",
-            "Camera_16"
+            "Pile_11",
+            "Person_06"
         ],
         [
-            "Camera_14",
-            "Camera_15"
+            "Pile_11",
+            "Person_07"
         ],
         [
-            "Camera_14",
-            "Camera_16"
+            "Pile_11",
+            "Person_08"
         ],
         [
-            "Camera_15",
-            "Camera_16"
+            "Pile_11",
+            "Person_09"
+        ],
+        [
+            "Pile_11",
+            "Person_10"
+        ],
+        [
+            "Pile_11",
+            "Person_11"
+        ],
+        [
+            "Pile_11",
+            "Person_12"
+        ],
+        [
+            "Person_05",
+            "Person_06"
+        ],
+        [
+            "Person_05",
+            "Person_07"
+        ],
+        [
+            "Person_05",
+            "Person_08"
+        ],
+        [
+            "Person_05",
+            "Person_09"
+        ],
+        [
+            "Person_05",
+            "Person_10"
+        ],
+        [
+            "Person_05",
+            "Person_11"
+        ],
+        [
+            "Person_05",
+            "Person_12"
+        ],
+        [
+            "Person_06",
+            "Person_07"
+        ],
+        [
+            "Person_06",
+            "Person_08"
+        ],
+        [
+            "Person_06",
+            "Person_09"
+        ],
+        [
+            "Person_06",
+            "Person_10"
+        ],
+        [
+            "Person_06",
+            "Person_11"
+        ],
+        [
+            "Person_06",
+            "Person_12"
+        ],
+        [
+            "Person_07",
+            "Person_08"
+        ],
+        [
+            "Person_07",
+            "Person_09"
+        ],
+        [
+            "Person_07",
+            "Person_10"
+        ],
+        [
+            "Person_07",
+            "Person_11"
+        ],
+        [
+            "Person_07",
+            "Person_12"
+        ],
+        [
+            "Person_08",
+            "Person_09"
+        ],
+        [
+            "Person_08",
+            "Person_10"
+        ],
+        [
+            "Person_08",
+            "Person_11"
+        ],
+        [
+            "Person_08",
+            "Person_12"
+        ],
+        [
+            "Person_09",
+            "Person_10"
+        ],
+        [
+            "Person_09",
+            "Person_11"
+        ],
+        [
+            "Person_09",
+            "Person_12"
+        ],
+        [
+            "Person_10",
+            "Person_11"
+        ],
+        [
+            "Person_10",
+            "Person_12"
+        ],
+        [
+            "Person_11",
+            "Person_12"
         ]
     ]
 }

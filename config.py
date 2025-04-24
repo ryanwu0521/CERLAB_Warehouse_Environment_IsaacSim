@@ -4,7 +4,8 @@
 
 # ---------- OmniVerse USD Stage ----------
 # USD_PATH = "omniverse://cerlabnucleus.lan.local.cmu.edu/Users/weihuanw/sim_environments/large_modular_warehouse_v1.usd"
-USD_PATH = "omniverse://cerlabnucleus.lan.local.cmu.edu/Users/weihuanw/sim_environments/large_modular_warehouse_v2.usd"
+# USD_PATH = "omniverse://cerlabnucleus.lan.local.cmu.edu/Users/weihuanw/sim_environments/large_modular_warehouse_v2.usd"
+USD_PATH = "omniverse://cerlabnucleus.lan.local.cmu.edu/Users/weihuanw/sim_environments/large_modular_warehouse_v3.usd"
 
 # ---------- Feature Extraction ----------
 PRIM_PATH = "/World/Warehouse/Features"  # USD Prim path for features

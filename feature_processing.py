@@ -122,6 +122,10 @@ def query_features():
                 feature_type = "camera"
             elif "bleacher" in prim_name.lower():
                 feature_type = "bleacher"
+            elif "pile" in prim_name.lower():
+                feature_type = "pile"
+            elif "person" in prim_name.lower():
+                feature_type = "person"
 
             # Create feature using bounding sphere (rotation-invariant)
             feature = Feature(prim_name, feature_type, translation, radius, source_map="Warehouse")

@@ -60,7 +60,7 @@ def draw_feature_graph(feature_graph, threshold=None, margin=None, show_overlap=
     fig = plt.figure(figsize=(10, 8))
     ax = fig.add_subplot(111, projection='3d')
     
-    color_map = {"rack": "blue", "crane": "red", "forklift": "green", "camera ": "purple", "bleacher": "orange"}
+    color_map = {"rack": "blue", "crane": "red", "forklift": "green", "camera ": "purple", "bleacher": "orange", "pile": "yellow", "person": "pink"}
     
     # Draw nodes
     for node, data in feature_graph.nodes(data=True):
