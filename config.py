@@ -10,7 +10,7 @@ USD_PATH = "omniverse://cerlabnucleus.lan.local.cmu.edu/Users/weihuanw/sim_envir
 PRIM_PATH = "/World/Warehouse/Features"  # USD Prim path for features
 
 # ---------- Map Overlay & Partitioning ----------
-OVERLAP_MARGIN = 1000.0  # Minimum distance between features in meters
+OVERLAP_MARGIN = 100.0  # Minimum distance between features in meters
 
 # ---------- Graph Visualization ----------
 MAX_EDGE_DISTANCE = 200.0  # Max distance to draw an edge in the graph (meters)

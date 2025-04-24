@@ -140,7 +140,8 @@ def query_features():
 # =========================================
 def partition_features(all_features):
     """
-    Partitions features into two maps based on x-position and identifies overlapping features.
+    Partitions features into two maps based on x-position (split at the midpoint
+    of the x-range) and identifies overlapping features.
 
     Args:
         all_features (list): List of Feature objects.
@@ -148,7 +149,11 @@ def partition_features(all_features):
     Returns:
         tuple: (map_a_features, map_b_features, overlapping_features)
     """
-    threshold = np.median([f.position[0] for f in all_features])
+    # Compute min and max x to find the midpoint
+    xs = [f.position[0] for f in all_features]
+    min_x, max_x = min(xs), max(xs)
+    threshold = (min_x + max_x) / 2.0
+
     margin = config.OVERLAP_MARGIN
     map_a_features, map_b_features, overlapping_features = [], [], set()
 
